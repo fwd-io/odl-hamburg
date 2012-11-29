@@ -1,0 +1,17 @@
+#navbar {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: #555c5c;
+  top: 0;
+  left: 0;
+  padding: 1em 0;
+}
+#navbar a {
+  color: #eeefef;
+  text-decoration: none;
+}
+#hero {
+  background-color: #bbc7c7;
+  width: 100%;
+}
