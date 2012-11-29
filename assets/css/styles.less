@@ -3,20 +3,57 @@
 @hero-grey: #bbc7c7;
 
 #navbar {
+	z-index: 1000;
 	position: fixed;
-	text-align: center;
-	width: 100%;
 	background-color: @dark-grey;
-	top: 0;
-	left: 0;
-	padding: 1em 0;
+	height: 69px;
+
+	ul {
+		list-style: none outside none;
+		margin-top: 1.5em;
+	}
+
+	li {
+		display: inline;
+		padding: 0 1.5em;
+		border-right: 1px solid @custom-white;
+	}
+	li.last {
+		border-right: none;
+	}
+
 	a {
 		color: @custom-white;
 		text-decoration: none;
+		text-transform: uppercase;
 	}
 }
 
 #hero {
+	position:relative;
 	background-color: @hero-grey;
+	padding-top: 69px;
+}
+
+* {
+	margin: 0;
+}
+
+html {
+	text-align: center;
+}
+
+.section {
 	width: 100%;
+	position: relative;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.col12 {
+	width: 100%;
+}
+
+.col6 {
+	width: 50%;
 }
