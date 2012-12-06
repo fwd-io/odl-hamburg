@@ -1,13 +1,14 @@
 @custom-white: #eeefef;
-
 @dark-grey: #555c5c;
-@hero-grey: #bbc7c7;
-@link-grey: #aab9b7;
 
+@link-grey: #aab9b7;
+@link-orange: #f67426;
+
+@hero-grey: #bbc7c7;
 @section-light: #e9f3f4;
 @section-dark: #e0eeee;
 
-#navbar {
+nav {
 	background-color: @dark-grey;
 	
 	ul {
@@ -25,10 +26,11 @@
 		color: @custom-white;
 		text-transform: uppercase;
 		font-family: Sans-Serif;
+		text-decoration: none;
 	}
 }
 
-#hero {
+header {
 	background-color: @hero-grey;
 	padding-top: 2.5em;
 	padding-bottom: 2.5em;
@@ -41,8 +43,16 @@
 
 	p {
 		font-size: 1.9em;
-		padding: 0 25%;
 	}
+}
+
+#social-quicklinks a {
+	color: @link-grey;
+}
+
+#quickinfo a {
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 img {
@@ -50,8 +60,8 @@ img {
 }
 
 a {
+	color: @link-orange;
 	text-decoration: none;
-	color: @link-grey;
 }
 
 li {
@@ -73,6 +83,7 @@ p {
 .col4, .col6 {
 	margin-right: 3.8%;
 	float: left;
+	min-height: 1px;
 }
 
 .col4 {
@@ -83,16 +94,48 @@ p {
 	width: 50%;
 }
 
+.last {
+	margin-right: 0;
+}
+
 .dark-tile-bg {
 	background-color: @section-dark;
 }
 
-.section {
-	padding: 0 20px;
+.row {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 body {
 	margin: 0;
+	//font-family: Adelle-Bold;
 }
 
 html {
