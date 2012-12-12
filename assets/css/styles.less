@@ -8,6 +8,13 @@
 @section-light: #e9f3f4;
 @section-dark: #e0eeee;
 
+@table-header: #bac6c6;
+@table-border: #929c9d;
+
+
+//    Section specific styles
+// =============================
+
 nav {
 	background-color: @dark-grey;
 	
@@ -32,8 +39,6 @@ nav {
 
 header {
 	background-color: @hero-grey;
-	padding-top: 2.5em;
-	padding-bottom: 2.5em;
 	text-align: center;
 
 	img {
@@ -50,10 +55,18 @@ header {
 	color: @link-grey;
 }
 
-#quickinfo a {
-	font-weight: bold;
-	text-decoration: underline;
+#quickinfo {
+	padding: 5em 0;
+
+	a {
+		font-weight: bold;
+		text-decoration: underline;
+	}
 }
+
+
+//    Global styles
+// ===================
 
 img {
 	vertical-align: middle;
@@ -78,6 +91,22 @@ ul {
 p {
 	color: @dark-grey;
 	line-height: 1.3em;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+
+	thead {
+		background-color: @table-header;
+		border-top: 1px solid @table-border;
+		border-bottom: 1px solid @table-border;
+	}
+
+	th, td {
+		padding: 1.2em 2em;
+		text-align: left;
+	}
 }
 
 .col4, .col6 {
@@ -107,27 +136,10 @@ p {
 	max-width: 1140px;
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+.padded {
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
 }
-
-.clearfix:after {
-   clear: both;
-}
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
 .container {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -140,4 +152,29 @@ body {
 
 html {
 	background-color: @section-light;
+}
+
+
+//   Helper styles
+// ==================
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+   clear: both;
 }

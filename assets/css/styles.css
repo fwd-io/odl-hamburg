@@ -18,8 +18,6 @@ nav a {
 }
 header {
   background-color: #bbc7c7;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
   text-align: center;
 }
 header img {
@@ -31,6 +29,9 @@ header p {
 }
 #social-quicklinks a {
   color: #aab9b7;
+}
+#quickinfo {
+  padding: 5em 0;
 }
 #quickinfo a {
   font-weight: bold;
@@ -56,6 +57,20 @@ p {
   color: #555c5c;
   line-height: 1.3em;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table thead {
+  background-color: #bac6c6;
+  border-top: 1px solid #929c9d;
+  border-bottom: 1px solid #929c9d;
+}
+table th,
+table td {
+  padding: 1.2em 2em;
+  text-align: left;
+}
 .col4,
 .col6 {
   margin-right: 3.8%;
@@ -78,17 +93,19 @@ p {
   margin: 0 auto;
   max-width: 1140px;
 }
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-
-  display: table;
-  /* 2 */
-
+.padded {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
 }
-.clearfix:after {
-  clear: both;
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  margin: 0;
+}
+html {
+  background-color: #e9f3f4;
 }
 .visuallyhidden {
   border: 0;
@@ -100,13 +117,15 @@ p {
   position: absolute;
   width: 1px;
 }
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
 }
-body {
-  margin: 0;
-}
-html {
-  background-color: #e9f3f4;
+.clearfix:after {
+  clear: both;
 }
