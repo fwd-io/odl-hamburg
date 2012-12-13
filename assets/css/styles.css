@@ -69,7 +69,6 @@ table {
 table {
   width: 100%;
   border-collapse: collapse;
-  padding: 100px 0;
 }
 table thead {
   background-color: #bac6c6;
@@ -78,8 +77,29 @@ table thead {
 }
 table th,
 table td {
-  padding: 1.2em 2em;
   text-align: left;
+  line-height: 3.5em;
+  padding-left: 2em;
+}
+table td.phone:before {
+  background: url('../img/phone.png') no-repeat left;
+}
+table td.tablet:before {
+  background: url('../img/tablet.png') no-repeat left;
+}
+table td.ios:before {
+  background: url('../img/ios.png') no-repeat left;
+}
+table td.phone:before,
+table td.tablet:before,
+table td.ios:before,
+table td.android:before {
+  display: inline-block;
+  content: "";
+  height: 33px;
+  position: relative;
+  padding-right: 2.5em;
+  top: 0.7em;
 }
 table tbody tr:nth-child(2n) {
   background-color: #e9f3f4;
@@ -144,4 +164,9 @@ html {
 }
 .clearfix:after {
   clear: both;
+}
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
