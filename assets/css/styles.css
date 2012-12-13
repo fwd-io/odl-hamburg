@@ -26,6 +26,8 @@ header img {
 }
 header p {
   font-size: 1.9em;
+  line-height: 1.3em;
+  padding: 0 2em;
 }
 #social-quicklinks a {
   color: #aab9b7;
@@ -36,6 +38,12 @@ header p {
 #quickinfo a {
   font-weight: bold;
   text-decoration: underline;
+}
+#quickinfo p {
+  line-height: 1.5em;
+}
+#device-table {
+  padding: 4em 0;
 }
 img {
   vertical-align: middle;
@@ -53,13 +61,15 @@ ul {
   padding: 1em 0;
   text-align: center;
 }
-p {
+p,
+h2,
+table {
   color: #555c5c;
-  line-height: 1.3em;
 }
 table {
   width: 100%;
   border-collapse: collapse;
+  padding: 100px 0;
 }
 table thead {
   background-color: #bac6c6;
@@ -70,6 +80,12 @@ table th,
 table td {
   padding: 1.2em 2em;
   text-align: left;
+}
+table tbody tr:nth-child(2n) {
+  background-color: #e9f3f4;
+}
+table tbody tr:nth-child(2n+1) {
+  background-color: #ffffff;
 }
 .col4,
 .col6 {

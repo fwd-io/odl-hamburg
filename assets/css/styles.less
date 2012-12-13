@@ -48,6 +48,8 @@ header {
 
 	p {
 		font-size: 1.9em;
+		line-height: 1.3em;
+		padding: 0 2em;
 	}
 }
 
@@ -62,6 +64,14 @@ header {
 		font-weight: bold;
 		text-decoration: underline;
 	}
+
+	p {
+		line-height: 1.5em;
+	}
+}
+
+#device-table {
+	padding: 4em 0;
 }
 
 
@@ -88,14 +98,14 @@ ul {
 	text-align: center;
 }
 
-p {
+p, h2, table {
 	color: @dark-grey;
-	line-height: 1.3em;
 }
 
 table{
 	width: 100%;
 	border-collapse: collapse;
+	padding: 100px 0;
 
 	thead {
 		background-color: @table-header;
@@ -106,6 +116,14 @@ table{
 	th, td {
 		padding: 1.2em 2em;
 		text-align: left;
+	}
+
+	tbody tr:nth-child(2n) {
+		background-color: @section-light;
+	}
+
+	tbody tr:nth-child(2n+1) {
+		background-color: #ffffff;
 	}
 }
 
