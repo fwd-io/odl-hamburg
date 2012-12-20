@@ -6,6 +6,10 @@ nav ul {
   margin: 0;
   font-size: 0.9em;
 }
+nav li {
+  display: inline;
+  padding: 0 1.5em;
+}
 nav .separated {
   border-right: 1px solid #eeefef;
 }
@@ -32,6 +36,9 @@ header p {
 #social-quicklinks a {
   color: #aab9b7;
 }
+#social-quicklinks li {
+  display: inline;
+}
 #quickinfo {
   padding: 5em 0;
 }
@@ -45,6 +52,22 @@ header p {
 #device-table {
   padding: 4em 0;
 }
+#contact {
+  padding: 4em 0;
+}
+#contact ul {
+  margin-top: 2em;
+  background-color: #ffffff;
+  padding: 2em;
+  width: 90%;
+  text-align: left;
+}
+#contact li {
+  padding-bottom: 0.5em;
+}
+#contact li:last-child {
+  padding-bottom: 0;
+}
 img {
   vertical-align: middle;
 }
@@ -52,18 +75,14 @@ a {
   color: #f67426;
   text-decoration: none;
 }
-li {
-  display: inline;
-  padding: 0 1.5em;
-}
 ul {
-  list-style: none outside none;
-  padding: 1em 0;
   text-align: center;
+  list-style: none outside none;
 }
 p,
 h2,
-table {
+table,
+ul {
   color: #555c5c;
 }
 table {

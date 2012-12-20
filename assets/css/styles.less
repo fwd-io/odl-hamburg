@@ -23,6 +23,11 @@ nav {
 		margin: 0;
 		font-size: 0.9em;
 	}
+
+	li {
+		display: inline;
+		padding: 0 1.5em;
+	}
 	
 	.separated {
 		border-right: 1px solid @custom-white;
@@ -53,8 +58,14 @@ header {
 	}
 }
 
-#social-quicklinks a {
-	color: @link-grey;
+#social-quicklinks {
+	a {
+		color: @link-grey;
+	}
+
+	li {
+		display: inline;
+	}
 }
 
 #quickinfo {
@@ -74,6 +85,25 @@ header {
 	padding: 4em 0;
 }
 
+#contact {
+	padding: 4em 0;
+
+	ul {
+		margin-top: 2em;
+		background-color: #ffffff;
+		padding: 2em;
+		width: 90%;
+		text-align: left;
+	}
+
+	li {
+		padding-bottom: 0.5em;
+	}
+
+	li:last-child {
+		padding-bottom: 0;
+	}
+}
 
 //    Global styles
 // ===================
@@ -87,18 +117,12 @@ a {
 	text-decoration: none;
 }
 
-li {
-	display: inline;
-	padding: 0 1.5em;
-}
-
 ul {
-	list-style: none outside none;
-	padding: 1em 0;
 	text-align: center;
+	list-style: none outside none;
 }
 
-p, h2, table {
+p, h2, table, ul {
 	color: @dark-grey;
 }
 
