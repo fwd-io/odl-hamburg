@@ -16,7 +16,7 @@ twitter = {
 			},
 
 			success: function(data, textStatus, xhr) {
-				var html = '<div class="tweet">TWEET_TEXT<div class="time">AGO</div>';
+				var html = '<div class="tweet"><p>TWEET_TEXT</p><ul>AGO</ul>';
 
 				for (var i = 0; i < data.length; i++) {
 					$(twitter.appendTo).append(

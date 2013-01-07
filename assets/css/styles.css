@@ -5,6 +5,7 @@ nav ul {
   padding: 1.5em 0;
   margin: 0;
   font-size: 0.9em;
+  text-align: center;
 }
 nav li {
   display: inline;
@@ -36,8 +37,12 @@ header p {
 #social-quicklinks a {
   color: #aab9b7;
 }
+#social-quicklinks ul {
+  text-align: center;
+}
 #social-quicklinks li {
   display: inline;
+  padding-right: 4em;
 }
 #quickinfo {
   padding: 5em 0;
@@ -60,13 +65,24 @@ header p {
   background-color: #ffffff;
   padding: 2em;
   width: 90%;
-  text-align: left;
 }
 #contact li {
   padding-bottom: 0.5em;
 }
 #contact li:last-child {
   padding-bottom: 0;
+}
+#twitter {
+  color: #555c5c;
+}
+#twitter ul {
+  font-size: 0.7em;
+}
+#twitter .tweet {
+  border-bottom: 1px solid #c3d1d1;
+}
+#twitter .time {
+  font-size: 0.7em;
 }
 img {
   vertical-align: middle;
@@ -76,7 +92,6 @@ a {
   text-decoration: none;
 }
 ul {
-  text-align: center;
   list-style: none outside none;
 }
 p,
