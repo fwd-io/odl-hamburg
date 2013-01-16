@@ -1,36 +1,38 @@
 twitter = {
-	user: 'odl_hh',
-	numTweets: 3,
-	appendTo: '#twitter',
+    user: 'odl_hh',
+    numTweets: 3,
+    appendTo: '#twitter',
 
-	loadTweets: function() {
-		$.ajax({
-			url: 'http://api.twitter.com/1/statuses/user_timeline.json/',
-			type: 'GET',
-			dataType: 'jsonp',
-			data: {
-				screen_name: twitter.user,
-				include_rts: true,
-				count: twitter.numTweets,
-				include_entities: true
-			},
+    loadTweets: function() {
+        $.ajax({
+            url: 'http://api.twitter.com/1/statuses/user_timeline.json/',
+            type: 'GET',
+            dataType: 'jsonp',
+            data: {
+                screen_name: twitter.user,
+                include_rts: true,
+                count: twitter.numTweets,
+                include_entities: true
+            },
 
-			success: function(data, textStatus, xhr) {
-				var html = '<div class="tweet"><p>TWEET_TEXT</p><ul>AGO</ul>';
+            success: function(data, textStatus, xhr) {
+        for (var i = 0; i < data.length; i++) {
+            var tweet = '<div class="tweet"><p>TWEET_TEXT</p>';
+            var actions = '<ul><li><a href="http://www.twitter.com/odl_hh/status/ID">AGO</a></li>'
+                          + '<li><a href="https://www.twitter.com/intent/tweet?in_reply_to=ID">reply</a></li>'
+                          + '<li><a href="https://www.twitter.com/intent/retweet?tweet_id=ID">retweet</a></li>'
+                          + '<li><a href="https://www.twitter.com/intent/favorite?tweet_id=ID">favorite</a></li></ul></div>';
 
-				for (var i = 0; i < data.length; i++) {
-					$(twitter.appendTo).append(
-						html.replace('TWEET_TEXT', twitter.ify.clean(data[i].text))
-								.replace(/USER/g, data[i].user.screen_name)
-								.replace('AGO', twitter.timeAgo(data[i].created_at))
-								.replace(/ID/g, data[i].id_str)
-								);
-				}
-			}
-		});
-	},
+                    tweet = tweet.replace('TWEET_TEXT', twitter.ify.clean(data[i].text));
+          actions = actions.replace(/ID/g, data[i].id_str)
+                .replace('AGO', twitter.timeAgo(data[i].created_at));
+          $(twitter.appendTo).append(tweet+actions);
+                }
+            }
+        });
+    },
 
-	/**
+    /**
   * relative time calculator FROM TWITTER
   * @param {string} twitter date string returned from Twitter API
   * @return {string} relative time like "2 minutes ago"
@@ -133,5 +135,5 @@ twitter = {
 };
 
 $(document).ready(function() {
-	twitter.loadTweets();
+    twitter.loadTweets();
 });
