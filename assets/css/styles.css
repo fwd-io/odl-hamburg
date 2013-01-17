@@ -22,7 +22,8 @@ nav a {
   text-decoration: none;
 }
 header {
-  background-color: #bbc7c7;
+  padding: 3em;
+  background: #bbc7c7 url('../img/background.png') repeat;
   text-align: center;
 }
 header img {
@@ -43,9 +44,6 @@ header p {
 #social-quicklinks li {
   padding-right: 4em;
 }
-#quickinfo {
-  padding: 5em 0;
-}
 #quickinfo a {
   font-weight: bold;
   text-decoration: underline;
@@ -54,9 +52,6 @@ header p {
   line-height: 1.5em;
 }
 #device-table {
-  padding: 4em 0;
-}
-#contact {
   padding: 4em 0;
 }
 #contact ul {
@@ -212,8 +207,8 @@ iframe {
   clear: both;
 }
 .padded {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 7em;
+  padding-bottom: 7em;
 }
 .container {
   padding-left: 20px;
