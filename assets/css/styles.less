@@ -33,9 +33,6 @@ nav {
 		padding: 0 1.5em;
 	}
 	
-	.separated {
-		border-right: 1px solid @custom-white;
-	}
 	
 	a {
 		font-family: BrandonGrotesque-Bold;
@@ -43,6 +40,9 @@ nav {
 		text-transform: uppercase;
 		text-decoration: none;
 	}
+}
+.separated {
+	border-right: 1px solid @custom-white;
 }
 
 header {
@@ -118,7 +118,7 @@ button.donate {
 	padding: 4em 0;
 }
 
-#contact {
+.contact {
 	ul {
 		margin-top: 2em;
 		background-color: #ffffff;
@@ -195,12 +195,12 @@ ul {
 	list-style: none outside none;
 }
 
-li {
+.horizontal li {
 	display: inline;
 }
 
 h2 {
-	margin-bottom: 29px;
+	margin: 25px 0;
 	font-family: Adelle-Bold;
 	font-weight: 400;
 }
@@ -209,7 +209,7 @@ p, h2, table, ul {
 	color: @dark-grey;
 }
 
-table{
+table {
 	width: 100%;
 	border-collapse: collapse;
 
@@ -339,4 +339,38 @@ html {
 	-moz-box-sizing: border-box; 
 	box-sizing: border-box; 
 	-webkit-box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 45em) {
+	.col4, .col6, .col3 {
+		float: none;
+		width: 100%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	button {
+		// TODO: Center that ***ing button;
+	}
+
+	.contact ul {
+		width: 100%;
+	}
+
+	.padded {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+
+	li {
+		display: block;
+		margin: 0.5em 0;
+	}
+
+	.separated {
+		border: none;
+	}
 }
