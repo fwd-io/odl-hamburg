@@ -18,7 +18,7 @@ twitter = {
             success: function(data, textStatus, xhr) {
         for (var i = 0; i < data.length; i++) {
             var tweet = '<div class="tweet"><p>TWEET_TEXT</p>';
-            var actions = '<ul><li><a href="http://www.twitter.com/odl_hh/status/ID">AGO</a></li>'
+            var actions = '<ul class="horizontal"><li><a href="http://www.twitter.com/odl_hh/status/ID">AGO</a></li>'
                           + '<li><a href="https://www.twitter.com/intent/tweet?in_reply_to=ID">reply</a></li>'
                           + '<li><a href="https://www.twitter.com/intent/retweet?tweet_id=ID">retweet</a></li>'
                           + '<li><a href="https://www.twitter.com/intent/favorite?tweet_id=ID">favorite</a></li></ul></div>';
