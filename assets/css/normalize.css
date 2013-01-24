@@ -178,15 +178,6 @@ mark {
 }
 
 /*
- * Addresses margins set differently in IE 6/7.
- */
-
-p,
-pre {
-    margin: 1em 0;
-}
-
-/*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
 
