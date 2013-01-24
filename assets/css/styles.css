@@ -335,6 +335,9 @@ html {
   .wide li {
     display: inherit;
   }
+  .responsive-line {
+    display: block;
+  }
   table,
   thead,
   tbody,
@@ -380,8 +383,5 @@ html {
   }
   td:nth-of-type(4):before {
     content: "Contributor";
-  }
-  .responsive-line {
-    display: block;
   }
 }
