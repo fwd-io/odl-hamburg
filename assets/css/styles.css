@@ -178,27 +178,28 @@ td {
   line-height: 3.5em;
   padding-left: 2em;
 }
-.phone {
-  background: url('../img/phone.png') no-repeat left;
+.phone,
+.tablet,
+.ios,
+.android {
   display: inline-block;
-  padding-right: 2.5em;
-}
-.tablet:before {
-  background: url('../img/tablet.png') no-repeat left;
-}
-.ios:before {
-  background: url('../img/ios.png') no-repeat left;
-}
-.phone:before,
-.tablet:before,
-.ios:before,
-.android:before {
-  display: inline-block;
-  content: "";
-  height: 33px;
+  width: 36px;
+  height: 38px;
   position: relative;
-  padding-right: 2.5em;
-  top: 0.7em;
+  top: 14px;
+  margin-right: 10px;
+}
+.phone {
+  background: url('../img/phone.svg') no-repeat center;
+}
+.tablet {
+  background: url('../img/tablet.svg') no-repeat center;
+}
+.ios {
+  background: url('../img/ios.svg') no-repeat center;
+}
+.android {
+  background: url('../img/android.svg') no-repeat center;
 }
 tbody tr:nth-child(2n) {
   background-color: #e9f3f4;
