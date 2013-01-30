@@ -37,7 +37,7 @@
 		<div class="col12">
 			<ul class="horizontal wide">
 				<li>
-					<img src="assets/img/facebook.svg" width="16" height="16">
+					<img src="assets/img/facebook.svg" width="16" height="16" data-fallback="assets/img/">
 					<a href="http://www.facebook.com">Facebook</a>
 				</li>
 				<li>
@@ -168,8 +168,18 @@
 		<p><span class="responsive-line">The Open Device Lab Hamburg is kindly provided by <img src="assets/img/fwdio.svg" alt="FWD.IO" height="20em"><span><span class="responsive-line"> (C) 2012 | Design by LAUNCH/CO<span></p>
 	</footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+<script>
+	if(!Modernizr.svg)
+	{
+		$("img").each(function() {
+			var oldSrc = $(this).attr("src");
+			var newSrc = "assets/img/bitmaps" + oldSrc.slice(oldSrc.lastIndexOf("/"), oldSrc.lastIndexOf(".")) + ".png";
+			$(this).attr("src", newSrc);
+		});
+	}
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="js/twitter.js"></script>
 
 </body>
