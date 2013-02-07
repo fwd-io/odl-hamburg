@@ -41,6 +41,8 @@ header p {
 .quickinfo a {
   font-weight: bold;
   text-decoration: underline;
+  display: block;
+  margin-top: 25px;
 }
 .quickinfo p {
   line-height: 1.5em;
@@ -344,9 +346,6 @@ html {
   }
   .wide li {
     display: inherit;
-  }
-  .responsive-line {
-    display: block;
   }
   table,
   thead,

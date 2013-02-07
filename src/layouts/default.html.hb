@@ -27,7 +27,7 @@
 		</div>
 		<div class="row">
 			<div class="col12">
-				<p>{{document.content.hero}}<b>Open Device Lab</b> is established to help the local web developer community to be able to test their work on the ever-growing range of mobile devices.</p>
+				{{{document.content.hero}}}
 			</div>
 		</div>
 	</header>
@@ -37,15 +37,15 @@
 			<ul class="horizontal wide">
 				<li>
 					<img src="/assets/img/facebook.svg" width="16" height="16">
-					<a href="http://www.facebook.com">Facebook</a>
+					<a href="{{{site.facebook}}}">Facebook</a>
 				</li>
 				<li>
 					<img src="/assets/img/twitter.svg" width="16" height="16">
-					<a href="http://www.twitter.com/{{document.twitter}}">Twitter: @{{document.twitter}}</a>
+					<a href="http://www.twitter.com/{{site.twitter}}">@{{site.twitter}}</a>
 				</li>
 				<li>
 					<img src="/assets/img/mail.svg" width="16" height="16">
-					<a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#111;&#112;&#101;&#110;&#100;&#101;&#118;&#105;&#099;&#101;&#108;&#097;&#098;&#046;&#100;&#101;">E-Mail: &#104;&#101;&#108;&#108;&#111;&#064;&#111;&#112;&#101;&#110;&#100;&#101;&#118;&#105;&#099;&#101;&#108;&#097;&#098;&#046;&#100;&#101;</a>
+					<a href="mailto:{{{site.email}}}">{{{site.email}}}</a>
 				</li>
 			</ul>
 		</div>
@@ -54,20 +54,13 @@
 	<div class="container dark-tile-bg padded">
 	<div class="row clearfix quickinfo">
 		<div class="col4">
-			<h2>Über Open Device Labs</h2>
-			<p>
-				Open Device Labs - der kostenlose Gerätepark für Entwickler. ODLs ist eine neue, weltweite Bewegung um Software-Entwicklern Zugriff auf möglichst viele Testgeräte zu ermöglichen.
-			</p>
-			<a href="www.example.com">Die Idee hinter den ODLs</a>
+			{{{document.content.quickinfo-1}}}
 		</div>
 		<div class="col4">
-			<h2>ODL Hamburg</h2>
-			<p>Open Device Labs - der kostenlose Gerätepark für Entwickler. ODLs ist eine neue, weltweite Bewegung um Software-Entwicklern Zugriff auf möglichst viele Testgeräte zu ermöglichen.</p>
+			{{{document.content.quickinfo-2}}}
 		</div>
 		<div class="col4 last">
-			<h2>Mitmachen!</h2>
-			<p>Open Device Labs - der kostenlose Gerätepark für Entwickler. ODLs ist eine neue, weltweite Bewegung um Software-Entwicklern Zugriff auf möglichst viele Testgeräte zu ermöglichen.</p>
-			<button class="donate"><img src="/assets/img/donate_device.svg" width="44" height="65">Donate a device</button>
+			{{{document.content.quickinfo-3}}}	
 		</div>
 	</div>
 
@@ -100,20 +93,16 @@
 	<div class="container padded">
 	<div class="contact row clearfix">
 		<div class="col6">
-			<h2>Visit Us!</h2>
-			<p>
-				The Hamburg Open Device Lab is located at the Office of <a href="http://www.fwd.io">FWD.IO</a> in Hamburg, Spitalerstraße 16, 5th floor. Close to the HVV station Mönckebergstraße and to the main station. You are welcome to visit us anytime, just give us a short message in advance!
-			</p>
-
+			{{{document.content.contact}}}
 			<ul>
-				<li><b>Twitter:</b> <a href="http://www.twitter.com/{{document.twitter}}">@{{document.twitter}}</a></li>
-				<li><b>Telefon:</b> 1234 1234</li>
-				<li><b>E-Mail:</b> hello@opendevicelab.de</li>
+				<li><b>Twitter:</b> <a href="http://www.twitter.com/{{site.twitter}}">@{{site.twitter}}</a></li>
+				<li><b>Telefon:</b> {{{site.phone}}}</li>
+				<li><b>E-Mail:</b> <a href="mailto:{{{site.email}}}">{{{site.email}}}</a></li>
 			</ul>
 		</div>
 
 		<div class="col6 last">
-			<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=spitalerstra%C3%9Fe+16&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=45.8712,107.138672&amp;ie=UTF8&amp;hq=spitalerstra%C3%9Fe+16&amp;hnear=&amp;radius=15000&amp;ll=53.551719,10.001433&amp;spn=0.071946,0.071946&amp;t=m&amp;output=embed"></iframe>
+			{{{document.content.google-maps}}}
 		</div>
 	</div>
 	</div>
@@ -126,11 +115,11 @@
 			<p>The Hamburg Open Device Lab is located at the Office of <a href="http://www.fwd.io">FWD.IO</a> in Hamburg, Spitalerstraße 16, 5th floor. Close to the HVV station Mönckebergstraße and...</p>
 		</div>
 		<div id="twitter" class="col4">
-			<h2>Twitter: @ODL_HH</h2>
+			<h2>Twitter: @{{site.twitter}}</h2>
 		</div>
 		<div class="col4 last">
 			<h2>Facebook</h2>
-			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fplatform&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:99%;" allowTransparency="true"></iframe>
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:99%;" allowTransparency="true"></iframe>
 		</div>
 	</div>
 	</div>
@@ -141,16 +130,15 @@
 				<h2>Meet our Partners</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col3"><img src="/assets/img/donate_device.svg" alt="" class="center"></div>
-			<div class="col3"><img src="/assets/img/donate_device.svg" alt="" class="center"></div>
-			<div class="col3"><img src="/assets/img/donate_device.svg" alt="" class="center"></div>
-			<div class="col3 last"><img src="/assets/img/donate_device.svg" alt="" class="center"></div>
+		<div class="row clearfix">
+			{{#each document.partner-logos}}
+				<div class="col3 last"><img src="{{this}}" alt="" class="center"></div>
+			{{/each}}
 		</div>
 	</div>
 
 	<footer>
-		<p><span class="responsive-line">The Open Device Lab Hamburg is kindly provided by <img src="/assets/img/fwdio.svg" alt="FWD.IO" height="20em"><span><span class="responsive-line"> (C) 2012 | Design by LAUNCH/CO<span></p>
+		{{{document.content.footer}}}
 	</footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
