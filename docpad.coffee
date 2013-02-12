@@ -7,6 +7,7 @@ module.exports =
             email: "hello@opendevicelab.de"
             phone: "1234 5678"
 
+    ## Helpers for the handlebars templating engine
     plugins:
         handlebars:
             helpers:
