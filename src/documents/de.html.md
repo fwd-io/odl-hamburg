@@ -44,7 +44,7 @@ content:
         <p>
         Open Device Labs - is established to help the local web developer community to be able to test their work on the ever-growing range of mobile devices.
         </p>
-        <button class="donate"><img src="/assets/img/donate_device.svg" width="44" height="65">Donate a de</button>
+        <button class="donate"><img src="/assets/img/donate_device.svg" width="44" height="65">Donate a device</button>
 
     contact: >
         <h2>Visit Us!</h2>
