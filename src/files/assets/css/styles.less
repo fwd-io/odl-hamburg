@@ -1,4 +1,5 @@
 @nav-border: #454648;
+@language-switch: #b5c1c1;
 
 @custom-white: #eeefef;
 @dark-grey: #555c5c;
@@ -20,19 +21,19 @@
 
 nav {
 	background-color: @dark-grey;
-	
+	border-top: 6px solid @nav-border;
+	padding: 1.5em 0;
+	font-size: 0.9em;
+	text-align: center;
+
 	ul {
-		border-top: 6px solid @nav-border;
-		padding: 1.5em 0;
 		margin: 0;
-		font-size: 0.9em;
-		text-align: center;
+		display: inline;
 	}
 
 	li {
 		padding: 0 1.5em;
 	}
-	
 	
 	a {
 		font-family: BrandonGrotesque-Bold;
@@ -192,6 +193,16 @@ a {
 	text-decoration: none;
 }
 
+.language-switch {
+	color: @hero-grey;
+	float: right;
+	margin-right: 5em;
+
+	a {
+		color: @hero-grey;
+	}
+}
+
 p {
 	line-height: 1.3em;	
 }
@@ -306,6 +317,10 @@ iframe {
 	max-width: 1140px;
 }
 
+li.padded {
+	margin-left: 100px;
+}
+
 .padded {
 	padding-top: 5em;
 	padding-bottom: 5em;
@@ -372,6 +387,12 @@ html {
 
 	nav ul {
 		padding: 1em 0;
+		display: block;
+	}
+
+	.language-switch {
+		float: none;
+		margin-right: 0;
 	}
 
 	h2 {

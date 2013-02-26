@@ -23,16 +23,14 @@ partner-logos:
 
 content:
     hero: >
-        <p>
-        <b>Open Device Lab</b> is established to help the local web developer community to be able to test their work on the ever-growing range of mobile devices.
-        </p>
+        <b>Open Device Lab</b> ist Deutsch!
 
     quickinfo-1: >
         <h2>Über Open Device Labs</h2>
         <p>
-        Open Device Labs - der kostenlose Gerätepark für Entwickler. ODLs ist eine neue, weltweite Bewegung um Software-Entwicklern Zugriff auf möglichst viele Testgeräte zu ermöglichen.
+        Open Device Labs - is established to help the local web developer community to be able to test their work on the ever-growing range of mobile devices.
         </p>
-        <a href="www.example.com">Die Idee hinter den ODLs</a>
+        <a href="www.example.com">More</a>
 
     quickinfo-2: >
         <h2>Placeholder</h2>
@@ -44,9 +42,9 @@ content:
     quickinfo-3: >
         <h2>Mitmachen!</h2>
         <p>
-        Open Device Labs - der kostenlose Gerätepark für Entwickler. ODLs ist eine neue, weltweite Bewegung um Software-Entwicklern Zugriff auf möglichst viele Testgeräte zu ermöglichen.
+        Open Device Labs - is established to help the local web developer community to be able to test their work on the ever-growing range of mobile devices.
         </p>
-        <button class="donate"><img src="/assets/img/donate_device.svg" width="44" height="65">Donate a device</button>
+        <button class="donate"><img src="/assets/img/donate_device.svg" width="44" height="65">Donate a de</button>
 
     contact: >
         <h2>Visit Us!</h2>

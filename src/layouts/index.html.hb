@@ -13,10 +13,12 @@
 <body>
 	<nav>
 		<ul class="horizontal wide">
-			<li class="separated"><a href="http://www.example.com">Blog</a></li>
 			<li class="separated"><a href="http://www.example.com">Open Device Labs Germany</a></li>
-			<li class="last"><a href="http://www.example.com">Open Device Labs Worldwide</a></li>
+			<li><a href="http://www.example.com">Open Device Labs Worldwide</a></li>
 		</ul>
+		<span class="language-switch">
+			<a href="./de.html">DE</a> <b>/</b> <a href="./en.html">EN</a>
+		</span>
 	</nav>
 
 	<header class="container padded">
@@ -27,7 +29,9 @@
 		</div>
 		<div class="row">
 			<div class="col12">
+				<p>
 				{{{document.content.hero}}}
+				</p>
 			</div>
 		</div>
 	</header>

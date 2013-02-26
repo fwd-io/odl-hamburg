@@ -6,6 +6,7 @@
   "dependencies": {
     "docpad-plugin-handlebars": "2.2.x",
     "docpad-plugin-robotskirt": "2.0.x",
+    "docpad-plugin-cleanurls": "~2.4.0"
   },
   "engines": {
     "node": "0.8.x"
