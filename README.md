@@ -35,4 +35,4 @@ Here you can enter some general information about your identity (e.g. facebook, 
 
 ### i18n
 
-For every language you want your site to support, create a new .hmtl file in `documents/` with a name representing that language (e.g. `en.html` or `de.html`). Then add those names (without the `.html`) to the `i18n` list in each file's metadata. 
+For every language you want your site to support, create a new `.hmtl` file in `documents/` with a name representing that language (e.g. `en.html` or `de.html`). Then add those names (without the `.html`) to the `i18n` list in each file's metadata. 
