@@ -1,0 +1,34 @@
+{
+  "name": "odl-hamburg",
+  "version": "0.1.0",
+  "description": "Homepage of the Open Device Lab Hamburg",
+  "main": "node_modules/docpad/bin/docpad-server",
+  "dependencies": {
+    "docpad-plugin-handlebars": "2.2.x",
+    "docpad-plugin-robotskirt": "2.0.x",
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.3.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@pm.fwd.io:fwd-opendevicelab.odl-hamburg.git"
+  },
+  "keywords": [
+    "docpad",
+    "open",
+    "device",
+    "lab",
+    "hamburg",
+    "fwd",
+    "io"
+  ],
+  "author": "FWD.IO",
+  "readmeFilename": "README.md"
+}
