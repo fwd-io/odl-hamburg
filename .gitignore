@@ -1,1 +1,4 @@
 *.sublime*
+design/
+node_modules/
+out/
