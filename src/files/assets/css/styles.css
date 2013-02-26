@@ -154,6 +154,7 @@ a {
 }
 .language-switch a {
   color: #bbc7c7;
+  margin-right: 1em;
 }
 p {
   line-height: 1.3em;

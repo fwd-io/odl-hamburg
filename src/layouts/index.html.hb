@@ -17,7 +17,9 @@
 			<li><a href="http://www.example.com">Open Device Labs Worldwide</a></li>
 		</ul>
 		<span class="language-switch">
-			<a href="./de.html">DE</a> <b>/</b> <a href="./en.html">EN</a>
+			{{#each document.i18n}}
+				<a href="./{{this}}.html">{{this}}</a>
+			{{/each}}
 		</span>
 	</nav>
 
