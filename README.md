@@ -17,7 +17,11 @@ Try the docpad.odl skeleton. Enter your texts, a list of devices and some data a
         docpad run
 
 3. Take a look at your fresh website at [http://localhost:9778](http://localhost:9778)
-4. Customize to your liking! You can start by editing the texts in `src/documents/index.html.md`. For an example website, check out the [ODL Hamburg site](https://www.github.com/fwd-io/odl-hamburg). For hints regarding docpad, have a look at the [Docpad Documentation](http://docpad.org/docs/).
+4. Customize to your liking! Start by
+    - Editing the texts in `src/documents/en.html.md`. 
+    - Filling in some information about your organization in the docpad.coffee configuration file.
+
+For an example website, check out the [ODL Hamburg site](https://www.github.com/fwd-io/odl-hamburg). For hints regarding docpad, have a look at the [Docpad Documentation](http://docpad.org/docs/).
 
 Have Fun!
 
