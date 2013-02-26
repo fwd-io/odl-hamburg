@@ -18,6 +18,9 @@ devices:
         contributor: Joachim Penk
         type: phone
 
+partner-logos:
+# Nothing yet...
+
 content:
     hero: >
         <p>

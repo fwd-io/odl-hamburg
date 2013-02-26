@@ -109,17 +109,12 @@
 
 	<div class="container dark-tile-bg padded">
 	<div class="row clearfix">
-		<div class="col4">
-			<h2>News</h2>
-			<p>The Hamburg Open Device Lab is located at the Office of <a href="http://www.fwd.io">FWD.IO</a> in Hamburg, Spitalerstraße 16, 5th floor. Close to the HVV station Mönckebergstraße and...</p>
-			<p>The Hamburg Open Device Lab is located at the Office of <a href="http://www.fwd.io">FWD.IO</a> in Hamburg, Spitalerstraße 16, 5th floor. Close to the HVV station Mönckebergstraße and...</p>
-		</div>
-		<div id="twitter" class="col4">
+		<div id="twitter" class="col6">
 			<h2>Twitter: @{{site.twitter}}</h2>
 		</div>
-		<div class="col4 last">
+		<div class="col6 last">
 			<h2>Facebook</h2>
-			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:99%;" allowTransparency="true"></iframe>
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:98%;" allowTransparency="true"></iframe>
 		</div>
 	</div>
 	</div>
