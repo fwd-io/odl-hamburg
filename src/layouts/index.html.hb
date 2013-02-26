@@ -123,19 +123,20 @@
 		</div>
 	</div>
 	</div>
-	
-	<div class="container padded">
-		<div class="row">
-			<div class="col12">
-				<h2>Meet our Partners</h2>
+	{{#if document.partner-logos}}
+		<div class="container padded">
+			<div class="row">
+				<div class="col12">
+					<h2>Meet our Partners</h2>
+				</div>
+			</div>
+			<div class="row clearfix">
+				{{#each document.partner-logos}}
+					<div class="col3 last"><img src="{{this}}" alt="" class="center"></div>
+				{{/each}}
 			</div>
 		</div>
-		<div class="row clearfix">
-			{{#each document.partner-logos}}
-				<div class="col3 last"><img src="{{this}}" alt="" class="center"></div>
-			{{/each}}
-		</div>
-	</div>
+	{{/if}}
 
 	<footer>
 		{{{document.content.footer}}}

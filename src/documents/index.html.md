@@ -1,6 +1,6 @@
 ---
 title: Open Device Lab Hamburg
-layout: default
+layout: index
 
 devices:
     iphone3gs: 
@@ -17,10 +17,6 @@ devices:
         version: 6
         contributor: Joachim Penk
         type: phone
-
-partner-logos:
-    - assets/img/donate_device.svg
-    - assets/img/facebook.svg
 
 content:
     hero: >
