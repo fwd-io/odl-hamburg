@@ -20,3 +20,4 @@ Try the docpad.odl skeleton. Enter your texts, a list of devices and some data a
 4. Customize to your liking! You can start by editing the texts in `src/documents/index.html.md`. For an example website, check out the [ODL Hamburg site](https://www.github.com/fwd-io/odl-hamburg). For hints regarding docpad, have a look at the [Docpad Documentation](http://docpad.org/docs/).
 
 Have Fun!
+
