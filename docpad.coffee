@@ -2,9 +2,9 @@ module.exports =
     ## Put your general Website information here!
     templateData:
         site:
-            twitter: "odl_hh"
-            facebook: "https://www.facebook.com/FWD.IO"
-            email: "hello@opendevicelab.de"
+            twitter: "username"
+            facebook: "https://www.facebook.com/example"
+            email: "hello@example.com"
             phone: "1234 5678"
 
     ## Helpers for the handlebars templating engine
