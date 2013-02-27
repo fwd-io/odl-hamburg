@@ -22,7 +22,7 @@ devices:
         type: phone
 
 partner-logos:
-# Nothing yet...
+    - assets/img/android.svg
 
 content:
     hero: >

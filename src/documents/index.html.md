@@ -4,6 +4,8 @@ layout: index
 i18n:
     - de
     - en
+urls:
+    - en
 
 devices:
     iphone3gs: 
@@ -22,7 +24,7 @@ devices:
         type: phone
 
 partner-logos:
-# Nothing yet...
+    - assets/img/android.svg
 
 content:
     hero: >
