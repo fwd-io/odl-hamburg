@@ -5,7 +5,6 @@
   "main": "node_modules/docpad/bin/docpad-server",
   "dependencies": {
     "docpad-plugin-handlebars": "2.2.x",
-    "docpad-plugin-robotskirt": "2.0.x",
     "docpad-plugin-cleanurls": "~2.4.0"
   },
   "engines": {
