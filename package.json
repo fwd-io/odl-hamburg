@@ -1,5 +1,5 @@
 {
-  "name": "odl-hamburg",
+  "name": "odl.docpad",
   "version": "0.1.0",
   "description": "Homepage of the Open Device Lab Hamburg",
   "main": "node_modules/docpad/bin/docpad-server",
