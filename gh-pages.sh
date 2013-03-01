@@ -1,3 +1,5 @@
+#! /usr/bin/bash
+
 cd ./out && \
 remote_repo=`git config remote.origin.url` && \                                                    
 remote_branch="gh-pages" && \
