@@ -1,6 +1,6 @@
 twitter = {
     // Enter your username here
-    user: 'username',
+    user: 'odl_hh',
     numTweets: 3,
     appendTo: '#twitter',
 

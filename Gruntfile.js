@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     uglify: {
         dist: {
             files: {
-                'out/main.js': ['out/js/twitter.js', 'out/js/vendor/jquery-1-8-3-min.js', 'out/js/vendor/modernizr.js']
+                'out/js/twitter.js': ['out/js/twitter.js']
             }
         }
     },
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     },
 
     clean: {
-        after: ['out/js/', 'out/assets/css'],
+        after: ['out/assets/css'],
         before: ['out/main.js', 'out/main.css']
     }
   });

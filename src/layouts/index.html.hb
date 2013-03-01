@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{document.languageName}}">
 
 <head>
 	<meta charset="utf-8">
@@ -17,8 +17,9 @@
 			<li><a href="http://www.example.com">Open Device Labs Worldwide</a></li>
 		</ul>
 		<span class="language-switch">
+			<a href="{{document.pathToRoot}}/{{document.name}}">{{document.languageName}}</a>
 			{{#each document.i18n}}
-				<a href="{{../document.pathToRoot}}/{{this.file}}.html">{{this.name}}</a>
+				<a href="{{../document.pathToRoot}}/{{this.file}}.html">{{this.languageName}}</a>
 			{{/each}}
 		</span>
 	</nav>
@@ -148,17 +149,7 @@
 <!-- local fallback -->
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1-8-3-min.js"><\/script>')</script>
 
-<script>
-	if(!Modernizr.svg)
-	{
-		$("img").each(function() {
-			var oldSrc = $(this).attr("src");
-			var newSrc = "/assets/img/bitmaps" + oldSrc.slice(oldSrc.lastIndexOf("/"), oldSrc.lastIndexOf(".")) + ".png";
-			$(this).attr("src", newSrc);
-		});
-	}
-</script>
-{{#getBlock "scripts" "js/twitter.js"}}{{/getBlock}}
+{{#getBlock "scripts" document.pathToRoot "/js/twitter.js" "/js/svg-fallback.js"}}{{/getBlock}}
 
 </body>
 </html>
