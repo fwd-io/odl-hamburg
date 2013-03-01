@@ -10,10 +10,13 @@ Try the docpad.odl skeleton. Enter your texts, a list of devices and some data a
 
         git clone git://github.com/fwd-io/odl.docpad.git
 
-2. Install the dependencies and run the docpad server
+2. Install the dependencies
 
         cd odl.docpad
         npm install
+
+22. To make docpad generate your site and watch the files for changes, type
+
         docpad run
 
 3. Take a look at your fresh website at [http://localhost:9778](http://localhost:9778)
@@ -36,3 +39,23 @@ Here you can enter some general information about your identity (e.g. facebook, 
 ### i18n
 
 Create a separate document in `documents/` for every language you want to support. Then, in every document, create items containing the display names and file names of the other documents in the `i18n` list. 
+
+## Deploy
+
+### Github Pages
+
+Deployment to github pages is very simple. Docpad provides a plugin that automates deployment. To install:
+
+    git clone git://github.com/docpad/docpad-plugin-ghpages.git
+    npm install ./docpad-plugin-ghpages
+    rm -r docpad-plugin-pages
+
+Now, to deploy your site to github pages, just use `docpad deploy-ghpages` instead of the usual `docpad run`.
+
+### Any other server
+
+To generate files for a webserver, use
+    
+    docpad generate --env static
+
+This will render your website into `out/` and make sure the files are compatible to a static environment like an apache server.
