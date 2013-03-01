@@ -44,13 +44,9 @@ Create a separate document in `documents/` for every language you want to suppor
 
 ### Github Pages
 
-Deployment to github pages is very simple. Docpad provides a plugin that automates deployment. To install:
+Deployment to github pages is very simple. With the skeleton comes a shell script that automates the process of pushing to the gh-pages branch for you. Just run:
 
-    git clone git://github.com/docpad/docpad-plugin-ghpages.git
-    npm install ./docpad-plugin-ghpages
-    rm -r docpad-plugin-pages
-
-Now, to deploy your site to github pages, just use `docpad deploy-ghpages` instead of the usual `docpad run`.
+    ./gh-pages.sh
 
 ### Any other server
 
