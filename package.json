@@ -4,8 +4,7 @@
   "description": "Homepage of the Open Device Lab Hamburg",
   "main": "node_modules/docpad/bin/docpad-server",
   "dependencies": {
-    "docpad-plugin-handlebars": "2.2.x",
-    "docpad-plugin-cleanurls": "~2.4.0"
+    "docpad-plugin-handlebars": "2.2.x"
   },
   "engines": {
     "node": "0.8.x"

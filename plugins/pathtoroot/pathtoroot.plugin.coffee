@@ -16,7 +16,6 @@ module.exports = (BasePlugin) ->
             documents.forEach (document) ->
                 # Prepare
                 documentUrl = document.get('relativePath')
-                console.log(documentUrl)
                 depth = documentUrl.split('/').length;
                 pathToRoot = ['.']
                 if depth > 1 

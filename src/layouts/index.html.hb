@@ -18,7 +18,7 @@
 		</ul>
 		<span class="language-switch">
 			{{#each document.i18n}}
-				<a href="{{../document.pathToRoot}}/{{this}}">{{this}}</a>
+				<a href="{{../document.pathToRoot}}/{{this.file}}.html">{{this.name}}</a>
 			{{/each}}
 		</span>
 	</nav>
