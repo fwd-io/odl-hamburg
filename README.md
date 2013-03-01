@@ -15,7 +15,7 @@ Try the docpad.odl skeleton. Enter your texts, a list of devices and some data a
         cd odl.docpad
         npm install
 
-22. To make docpad generate your site and watch the files for changes, type
+22. To make docpad generate your site and refresh it when files are changed, type
 
         docpad run
 
