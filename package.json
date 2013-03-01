@@ -4,14 +4,15 @@
   "description": "Homepage of the Open Device Lab Hamburg",
   "main": "node_modules/docpad/bin/docpad-server",
   "dependencies": {
-    "docpad-plugin-handlebars": "2.2.x"
+    "docpad-plugin-handlebars": "2.2.x",
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "~0.1.2",
+    "bal-util": "~1.16.8",
+    "grunt-cli": "~0.1.6"
   },
   "engines": {
     "node": "0.8.x"
   },
-  "optionalDependencies": {
-    "docpad-plugin-ghpages": "~2.0.0"
-    },
   "devDependencies": {
     "docpad-plugin-livereload": "2.3.x"
   },
