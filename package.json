@@ -9,6 +9,9 @@
   "engines": {
     "node": "0.8.x"
   },
+  "optionalDependencies": {
+    "docpad-plugin-ghpages": "~2.0.0"
+    },
   "devDependencies": {
     "docpad-plugin-livereload": "2.3.x"
   },
