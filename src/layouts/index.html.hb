@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{document.title}}</title>
-	{{#getBlock "styles" document.pathToRoot "/assets/css/styles.css" "/assets/css/fonts.css" "/assets/css/normalize.css"}}{{/getBlock}}
+	{{#getBlock "styles" document.pathToRoot "/main.css"}}{{/getBlock}}
 	{{#getBlock "meta"}}{{/getBlock}}
 	<script src="{{document.pathToRoot}}/js/vendor/modernizr.js"></script>
 </head>
