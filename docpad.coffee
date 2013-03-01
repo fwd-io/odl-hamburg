@@ -11,9 +11,10 @@ module.exports =
     plugins:
         handlebars:
             helpers:
-                getBlock: (type, additional...) ->
+                getBlock: (type, prefix, additional...) ->
                     additional.pop()
-                    @getBlock(type).add(additional).toHTML()
+                    newPaths = (prefix+path for path in additional)
+                    @getBlock(type).add(newPaths).toHTML()
 
                 lowercase: (string) ->
                     string.toLowerCase()

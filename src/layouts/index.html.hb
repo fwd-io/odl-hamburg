@@ -5,9 +5,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{document.title}}</title>
-	{{#getBlock "styles" "/assets/css/styles.css" "/assets/css/fonts.css" "/assets/css/normalize.css"}}{{/getBlock}}
+	{{#getBlock "styles" document.pathToRoot "/assets/css/styles.css" "/assets/css/fonts.css" "/assets/css/normalize.css"}}{{/getBlock}}
 	{{#getBlock "meta"}}{{/getBlock}}
-	<script src="js/vendor/modernizr.js"></script>
+	<script src="{{document.pathToRoot}}/js/vendor/modernizr.js"></script>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 		</ul>
 		<span class="language-switch">
 			{{#each document.i18n}}
-				<a href="./{{this}}">{{this}}</a>
+				<a href="{{../document.pathToRoot}}/{{this}}">{{this}}</a>
 			{{/each}}
 		</span>
 	</nav>
@@ -26,7 +26,7 @@
 	<header class="container padded">
 		<div class="row">
 			<div class="col12">
-				<img src="/assets/img/header.svg">
+				<img src="{{document.pathToRoot}}/assets/img/header.svg">
 			</div>
 		</div>
 		<div class="row">
@@ -42,15 +42,15 @@
 		<div class="col12">
 			<ul class="horizontal wide">
 				<li>
-					<img src="/assets/img/facebook.svg" width="16" height="16">
+					<img src="{{document.pathToRoot}}/assets/img/facebook.svg" width="16" height="16">
 					<a href="{{{site.facebook}}}">Facebook</a>
 				</li>
 				<li>
-					<img src="/assets/img/twitter.svg" width="16" height="16">
+					<img src="{{document.pathToRoot}}/assets/img/twitter.svg" width="16" height="16">
 					<a href="http://www.twitter.com/{{site.twitter}}">@{{site.twitter}}</a>
 				</li>
 				<li>
-					<img src="/assets/img/mail.svg" width="16" height="16">
+					<img src="{{document.pathToRoot}}/assets/img/mail.svg" width="16" height="16">
 					<a href="mailto:{{{site.email}}}">{{{site.email}}}</a>
 				</li>
 			</ul>
@@ -67,6 +67,7 @@
 		</div>
 		<div class="col4 last">
 			{{{document.content.quickinfo-3}}}	
+	        <button class="donate"><img src="{{document.pathToRoot}}/assets/img/donate_device.svg" width="44" height="65">Donate a device</button>
 		</div>
 	</div>
 
