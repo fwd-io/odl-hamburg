@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
-cd ./out && \
-remote_repo=`git config remote.origin.url` && \                                                    
+remote_repo=$(git config remote.origin.url) && \
+cd ./out && \                                               
 remote_branch="gh-pages" && \
 git init && \
 git add . && \
