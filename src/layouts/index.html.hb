@@ -84,7 +84,7 @@
 			        </tr>
 			    </thead>
 			    <tbody>
-			        {{#each document.devices}} 
+			        {{#each devices}} 
 			            <tr>
 			                <td>{{{this.manufacturer}}}</td>
 			                <td><span class="{{this.type}}"></span>{{{this.model}}}</td>

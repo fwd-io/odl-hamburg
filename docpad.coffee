@@ -7,6 +7,21 @@ module.exports =
             facebook: "https://www.facebook.com/example"
             email: "hello@example.com"
             phone: "1234 5678"
+        devices:
+            iphone3gs: 
+                manufacturer: "Apple"
+                model: "iPhone 3GS"
+                os: "iOS"
+                version: "6"
+                contributor: "John Doe"
+                type: "phone"
+            ipodtouch4g:
+                manufacturer: "Apple"
+                model: "iPad 3"
+                os: "iOS"
+                version: "6"
+                contributor: "Foocorp"
+                type: "tablet"
 
     ## Helpers for the handlebars templating engine
     plugins:
