@@ -57,6 +57,48 @@ module.exports =
                 version: "9.3"
                 contributor: "<a href='http://schoetz-partner.com'>Patrick Schötz</a>"
                 type: "phone"
+            Desire:
+                manufacturer: "HTC"
+                model: "Desire"
+                os: "Android"
+                version: "2.2"
+                contributor: "<a href='http://schoetz-partner.com'>Patrick Schötz</a>"
+                type: "phone"
+            Desire2:
+                manufacturer: "HTC"
+                model: "Desire"
+                os: "Android"
+                version: "2.3.7 (Custom Rom)"
+                contributor: "<a href='http://fwd.io'>FWD.IO</a>"
+                type: "phone"
+            Wildfire:
+                manufacturer: "HTC"
+                model: "Wildfire"
+                os: "Android"
+                version: "2.2.1"
+                contributor: "<a href='http://twitter.com/achimsen'>Joachim Penk</a>"
+                type: "phone"
+            GalaxyS:
+                manufacturer: "Samsung"
+                model: "Galaxy S"
+                os: "Android"
+                version: "2.3.6"
+                contributor: "<a href='http://twitter.com/achimsen'>Joachim Penk</a>"
+                type: "phone"
+            GalaxyTab:
+                manufacturer: "Samsung"
+                model: "Galaxy Tab 10.1 M"
+                os: "Android"
+                version: "3.1"
+                contributor: "<a href='http://fwd.io'>FWD.IO</a>"
+                type: "tablet"
+            VB730:
+                manufacturer: "ViewSonic"
+                model: "VB730"
+                os: "Android"
+                version: "2.2.1"
+                contributor: "<a href='http://twitter.com/cover_up'>Cover-Up</a>"
+                type: "tablet"
 
     ## Helpers for the handlebars templating engine
     plugins:
@@ -73,6 +115,7 @@ module.exports =
                 safeurl: (url) ->
                     encodeURI(url)
 
+    ## Hook for running Grunt.js tasks
     events:
         writeAfter: (opts, next) ->
             balUtil = require('bal-util')
