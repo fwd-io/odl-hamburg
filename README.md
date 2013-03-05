@@ -3,6 +3,8 @@
 Want to start a local Open Device Lab? Need a simple one-page website without spending to much time developing it?
 Try the docpad.odl skeleton. Enter your texts, a list of devices and some data about your site, and you're good to go!
 
+You can have a look at how the skeleton will look [here](http://fwd-io.github.com/odl.docpad).
+
 ## Getting Started
 
 0. [Install Docpad](http://docpad.org/docs/install)
