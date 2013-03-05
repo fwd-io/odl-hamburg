@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     cssmin: {
         compress: {
             files: {
-                'out/main.css': ['out/assets/css/styles.css', 'out/assets/css/normalize.css', 'out/assets/css/fonts.css']
+                'out/main.css': ['out/assets/css/styles.css', 'out/assets/css/normalize.css']
             }
         }
     },

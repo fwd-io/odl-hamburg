@@ -13,7 +13,6 @@ nav li {
   padding: 0 1.5em;
 }
 nav a {
-  font-family: BrandonGrotesque-Bold;
   color: #eeefef;
   text-transform: uppercase;
   text-decoration: none;
@@ -170,7 +169,6 @@ ul {
 }
 h2 {
   margin: 0 0 25px;
-  font-family: Adelle-Bold;
   font-weight: 400;
 }
 p,
@@ -279,7 +277,6 @@ li.padded {
 }
 body {
   margin: 0;
-  font-family: 'Adelle-Regular';
   font-weight: 400;
 }
 html {
