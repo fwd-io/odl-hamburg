@@ -19,7 +19,7 @@ nav a {
   text-decoration: none;
 }
 header {
-  background: #bbc7c7 url('../img/background.png') repeat;
+  background: #bbc7c7 url('assets/img/background.png') repeat;
   text-align: center;
 }
 header img {
@@ -154,6 +154,7 @@ a {
 }
 .language-switch a {
   color: #bbc7c7;
+  margin-right: 1em;
 }
 p {
   line-height: 1.3em;
@@ -205,16 +206,16 @@ td {
   margin-right: 10px;
 }
 .phone {
-  background: url('../img/phone.svg') no-repeat center;
+  background: url('assets/img/phone.svg') no-repeat center;
 }
 .tablet {
-  background: url('../img/tablet.svg') no-repeat center;
+  background: url('assets/img/tablet.svg') no-repeat center;
 }
 .ios {
-  background: url('../img/ios.svg') no-repeat center;
+  background: url('assets/img/ios.svg') no-repeat center;
 }
 .android {
-  background: url('../img/android.svg') no-repeat center;
+  background: url('assets/img/android.svg') no-repeat center;
 }
 tbody tr:nth-child(2n) {
   background-color: #e9f3f4;

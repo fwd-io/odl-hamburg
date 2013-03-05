@@ -32,10 +32,10 @@
  * 
  * © 2012 Bitstream Inc
 */
-@font-face {font-family: 'BrandonGrotesque-Bold';src: url('../webfonts/233DCE_0_0.eot');src: url('../webfonts/233DCE_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/233DCE_0_0.woff') format('woff'),url('../webfonts/233DCE_0_0.ttf') format('truetype');}  
-@font-face {font-family: 'BrandonGrotesque-Regular';src: url('../webfonts/233DCE_1_0.eot');src: url('../webfonts/233DCE_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/233DCE_1_0.woff') format('woff'),url('../webfonts/233DCE_1_0.ttf') format('truetype');}
-@font-face {font-family: 'BrandonGrotesque-Medium';src: url('../webfonts/233DCE_2_0.eot');src: url('../webfonts/233DCE_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/233DCE_2_0.woff') format('woff'),url('../webfonts/233DCE_2_0.ttf') format('truetype');}
-@font-face {font-family: 'Adelle-Bold';src: url('../webfonts/233DCE_3_0.eot');src: url('../webfonts/233DCE_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/233DCE_3_0.woff') format('woff'),url('../webfonts/233DCE_3_0.ttf') format('truetype');}
+@font-face {font-family: 'BrandonGrotesque-Bold';src: url('assets/webfonts/233DCE_0_0.eot');src: url('assets/webfonts/233DCE_0_0.eot?#iefix') format('embedded-opentype'),url('assets/webfonts/233DCE_0_0.woff') format('woff'),url('assets/webfonts/233DCE_0_0.ttf') format('truetype');}  
+@font-face {font-family: 'BrandonGrotesque-Regular';src: url('assets/webfonts/233DCE_1_0.eot');src: url('assets/webfonts/233DCE_1_0.eot?#iefix') format('embedded-opentype'),url('assets/webfonts/233DCE_1_0.woff') format('woff'),url('assets/webfonts/233DCE_1_0.ttf') format('truetype');}
+@font-face {font-family: 'BrandonGrotesque-Medium';src: url('assets/webfonts/233DCE_2_0.eot');src: url('assets/webfonts/233DCE_2_0.eot?#iefix') format('embedded-opentype'),url('assets/webfonts/233DCE_2_0.woff') format('woff'),url('assets/webfonts/233DCE_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Adelle-Bold';src: url('assets/webfonts/233DCE_3_0.eot');src: url('assets/webfonts/233DCE_3_0.eot?#iefix') format('embedded-opentype'),url('assets/webfonts/233DCE_3_0.woff') format('woff'),url('assets/webfonts/233DCE_3_0.ttf') format('truetype');}
 
 /* @license
  * MyFonts Webfont Build ID 2452223, 2013-01-17T11:27:03-0500
@@ -61,4 +61,4 @@
 @import url("//hello.myfonts.net/count/256aff");
 
   
-@font-face {font-family: 'Adelle-Regular';src: url('../webfonts/256AFF_0_0.eot');src: url('../webfonts/256AFF_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/256AFF_0_0.woff') format('woff'),url('../webfonts/256AFF_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Adelle-Regular';src: url('assets/webfonts/256AFF_0_0.eot');src: url('assets/webfonts/256AFF_0_0.eot?#iefix') format('embedded-opentype'),url('assets/webfonts/256AFF_0_0.woff') format('woff'),url('assets/webfonts/256AFF_0_0.ttf') format('truetype');}
