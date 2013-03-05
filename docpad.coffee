@@ -13,7 +13,7 @@ module.exports =
                 model: "iPhone 3GS"
                 os: "iOS"
                 version: "6"
-                contributor: "John Doe"
+                contributor: "<a href='http://www.example.com>John Doe</a>"
                 type: "phone"
             ipodtouch4g:
                 manufacturer: "Apple"
