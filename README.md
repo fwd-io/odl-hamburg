@@ -38,7 +38,7 @@ Here you can enter some general information about your identity (e.g. facebook, 
 
 ### i18n
 
-Create a separate document in `documents/` for every language you want to support. Then, in every document, create items containing the display names and file names of the other documents in the `i18n` list. 
+Create a separate document in `documents/` for every language you want to support. Name your default file `index.html`. For every document, fill out the `languageName` value for the document itself and the `languageName` and `file` values in the `i18n` list for the other documents. Your language options will automagically appear in the upper right corner of the documents.
 
 ## Deploy
 
