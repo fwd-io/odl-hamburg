@@ -19,7 +19,7 @@
 		<span class="language-switch">
 			<a href="{{document.pathToRoot}}/{{document.name}}">{{document.languageName}}</a>
 			{{#each document.i18n}}
-				<a href="{{./document.pathToRoot}}/{{this.file}}.html">{{this.languageName}}</a>
+				<a href="{{../document.pathToRoot}}/{{this.file}}.html">{{this.languageName}}</a>
 			{{/each}}
 		</span>
 	</nav>
