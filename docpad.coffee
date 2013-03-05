@@ -7,6 +7,8 @@ module.exports =
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
             email: "hello@opendevicelab.de"
             phone: "1234 5678"
+            gdomain: "opendevicelab.de"
+            gid: "UA-35083554-1"
         devices:
             iphone3gs: 
                 manufacturer: "Apple"
