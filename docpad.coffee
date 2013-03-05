@@ -2,6 +2,7 @@ module.exports =
     ## Put your general Website information here!
     templateData:
         site:
+            title: "Open Device Lab Hamburg"
             twitter: "odl_hh"
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
             email: "hello@opendevicelab.de"
