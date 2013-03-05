@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{document.title}}</title>
+	<title>{{site.title}}</title>
 	{{#getBlock "styles" document.pathToRoot "/main.css"}}{{/getBlock}}
 	{{#getBlock "meta"}}{{/getBlock}}
 	<script src="{{document.pathToRoot}}/js/vendor/modernizr.js"></script>
@@ -86,10 +86,10 @@
 			    <tbody>
 			        {{#each document.devices}} 
 			            <tr>
-			                <td>{{this.manufacturer}}</td>
-			                <td><span class="{{this.type}}"></span>{{this.model}}</td>
+			                <td>{{{this.manufacturer}}}</td>
+			                <td><span class="{{this.type}}"></span>{{{this.model}}}</td>
 			                <td><span class="{{#lowercase this.os}}{{/lowercase}}"></span>{{this.os}} {{this.version}}</td>
-			                <td>{{this.contributor}}</td>
+			                <td>{{{this.contributor}}}</td>
 			            </tr>
 			        {{/each}}
 			    </tbody>
