@@ -13,6 +13,7 @@ nav li {
   padding: 0 1.5em;
 }
 nav a {
+  font-family: 'Roboto', sans-serif;
   color: #eeefef;
   text-transform: uppercase;
   text-decoration: none;
@@ -170,7 +171,8 @@ ul {
 }
 h2 {
   margin: 0 0 25px;
-  font-weight: 400;
+  font-family: 'Domine', serif;
+  font-weight: 700;
 }
 p,
 h2,
@@ -278,6 +280,7 @@ li.padded {
 }
 body {
   margin: 0;
+  font-family: 'Domine', serif;
   font-weight: 400;
 }
 html {
