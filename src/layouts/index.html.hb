@@ -13,7 +13,6 @@
 <body>
 	<nav>
 		<ul class="horizontal wide">
-			<li class="separated"><a href="http://www.example.com">Open Device Labs Germany</a></li>
 			<li><a href="http://www.opendevicelab.com">Open Device Labs Worldwide</a></li>
 		</ul>
 		<span class="language-switch">
