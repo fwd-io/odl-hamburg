@@ -149,7 +149,8 @@ a {
 .language-switch {
   color: #bbc7c7;
   float: right;
-  margin-right: 5em;
+  position: absolute;
+  right: 5em;
 }
 .language-switch a {
   color: #bbc7c7;
