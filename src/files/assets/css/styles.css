@@ -198,7 +198,8 @@ td {
 .phone,
 .tablet,
 .ios,
-.android {
+.android,
+.os {
   display: inline-block;
   width: 36px;
   height: 38px;
@@ -214,6 +215,9 @@ td {
 }
 .ios {
   background: url('assets/img/ios.svg') no-repeat center;
+}
+.os {
+  background: url('assets/img/blackberry.svg') no-repeat center;
 }
 .android {
   background: url('assets/img/android.svg') no-repeat center;
