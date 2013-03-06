@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/bin/bash
 
 remote_repo=$(git config remote.origin.url) && \
 cd ./out && \
