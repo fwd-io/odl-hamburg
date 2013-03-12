@@ -84,6 +84,7 @@
 
 	<div class="row" id="device-table">
 		<div class="col12">
+			<h2>Our Devices</h2>
 			<table>
 			    <thead>
 			        <tr>
