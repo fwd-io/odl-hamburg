@@ -5,11 +5,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{site.title}}</title>
-	{{#getBlock "styles" document.pathToRoot "/css/styles.css" "/css/normalize.css"}}{{/getBlock}}
+	{{#getBlock "styles" document.pathToRoot "/assets/css/styles.css" "/assets/css/normalize.css"}}{{/getBlock}}
 	<link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
 	{{#getBlock "meta"}}{{/getBlock}}
-	<script src="{{document.pathToRoot}}/js/vendor/modernizr.js"></script>
+	<script src="{{document.pathToRoot}}/assets/js/vendor/modernizr.js"></script>
 </head>
 
 <body>
@@ -149,9 +149,9 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!-- local fallback -->
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1-9-1-min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1-9-1-min.js"><\/script>')</script>
 
-{{#getBlock "scripts" document.pathToRoot "/js/main.js"}}{{/getBlock}}
+{{#getBlock "scripts" document.pathToRoot "/assets/js/twitter.js" "/assets/js/svg-fallback.js"}}{{/getBlock}}
 
 </body>
 </html>
