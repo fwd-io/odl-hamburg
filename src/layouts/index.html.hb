@@ -151,7 +151,7 @@
 <!-- local fallback -->
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1-9-1-min.js"><\/script>')</script>
 
-{{#getBlock "scripts" document.pathToRoot "/main.js"}}{{/getBlock}}
+{{#getBlock "scripts" document.pathToRoot "/js/main.js"}}{{/getBlock}}
 
 </body>
 </html>
