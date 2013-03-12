@@ -542,4 +542,5 @@ AddCharset utf-8 .atom .css .js .json .rss .vtt .xml
   php_value session.cookie_httponly true
 </IfModule>
 
-DirectoryIndex index.html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://hamburg.opendevicelab.de/ [R=301,L]
