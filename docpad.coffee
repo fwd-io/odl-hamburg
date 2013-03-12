@@ -119,4 +119,3 @@ module.exports =
 
                 safeurl: (url) ->
                     encodeURI(url)
-
