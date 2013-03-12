@@ -168,7 +168,7 @@
 <!-- local fallback -->
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1-8-3-min.js"><\/script>')</script>
 
-{{#getBlock "scripts" document.pathToRoot "/js/twitter.js" "/js/svg-fallback.js"}}{{/getBlock}}
+{{#getBlock "scripts" document.pathToRoot "/js/main.js"}}{{/getBlock}}
 
 </body>
 </html>
