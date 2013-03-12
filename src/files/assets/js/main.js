@@ -41,7 +41,7 @@ twitter = {
       var rightNow = new Date();
       var then = new Date(dateString);
        
-      if ($.browser.msie) {
+      if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {
           // IE can't parse these crazy Ruby dates
           then = Date.parse(dateString.replace(/( \+)/, ' UTC$1'));
       }
@@ -137,3 +137,13 @@ twitter = {
 $(document).ready(function() {
     twitter.loadTweets();
 });
+
+// svg fallback
+if(!Modernizr.svg)
+{
+    $("img").each(function() {
+        var oldSrc = $(this).attr("src");
+        var newSrc = "/assets/img/bitmaps" + oldSrc.slice(oldSrc.lastIndexOf("/"), oldSrc.lastIndexOf(".")) + ".png";
+        $(this).attr("src", newSrc);
+    });
+}
