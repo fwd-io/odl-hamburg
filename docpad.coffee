@@ -4,7 +4,7 @@ module.exports =
         site:
             title: "Open Device Lab X"
             twitter: "username"
-            facebook: "https://www.facebook.com/example"
+            facebook: "https://www.facebook.com/facebookdevelopers"
             email: "hello@example.com"
             phone: "1234 5678"
         devices:

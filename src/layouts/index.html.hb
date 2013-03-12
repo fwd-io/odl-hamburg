@@ -124,6 +124,7 @@
 		<div class="col6 last">
 			<h2>Facebook</h2>
 			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:98%;" allowTransparency="true"></iframe>
+
 		</div>
 	</div>
 	</div>
@@ -146,11 +147,11 @@
 		{{{document.content.footer}}}
 	</footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!-- local fallback -->
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1-8-3-min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1-9-1-min.js"><\/script>')</script>
 
-{{#getBlock "scripts" document.pathToRoot "/js/twitter.js" "/js/svg-fallback.js"}}{{/getBlock}}
+{{#getBlock "scripts" document.pathToRoot "/main.js"}}{{/getBlock}}
 
 </body>
 </html>
