@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{{site.title}}</title>
-	{{#getBlock "styles" document.pathToRoot "/main.css"}}{{/getBlock}}
+	{{#getBlock "styles" document.pathToRoot "/css/styles.css" "/css/normalize.css"}}{{/getBlock}}
 	<link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
 	{{#getBlock "meta"}}{{/getBlock}}

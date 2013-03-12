@@ -5,12 +5,8 @@
   "main": "node_modules/docpad/bin/docpad-server",
   "dependencies": {
     "docpad-plugin-handlebars": "2.2.x",
-    "grunt": "~0.4.0",
-    "grunt-contrib-uglify": "~0.1.2",
     "bal-util": "~1.16.8",
-    "grunt-cli": "~0.1.6",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-cssmin": "~0.4.1"
+    "docpad-plugin-less": "~2.1.3"
   },
   "engines": {
     "node": "0.8.x"
