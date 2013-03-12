@@ -127,18 +127,23 @@
 	</div>
 
 	<div class="container dark-tile-bg padded">
-	<div class="row clearfix">
-		<div id="twitter" class="col4">
-			<h2>Twitter: @{{site.twitter}}</h2>
+		<div class="row clearfix">
+			<div id="twitter" class="col4">
+				<h2>Twitter: @{{site.twitter}}</h2>
+			</div>
+			<div class="col4 odls-germany">
+				{{{document.content.odls-germany}}}
+			</div>
+			<div class="col4 last">
+				<h2>Facebook</h2>
+				
+				
+				
+
+				<iframe src="//www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;width=292&amp;height=258&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId={{site.appid}}" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:300px;" allowTransparency="true"></iframe>
+
+			</div>
 		</div>
-		<div class="col4 odls-germany">
-			{{{document.content.odls-germany}}}
-		</div>
-		<div class="col4 last">
-			<h2>Facebook</h2>
-			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:97%;" allowTransparency="true"></iframe>
-		</div>
-	</div>
 	</div>
 	{{#if document.partner-logos}}
 		<div class="container padded">
