@@ -18,7 +18,7 @@ module.exports = function(grunt) {
     },
 
     clean: {
-        after: ['out/assets/css'],
+        after: ['out/assets/css', 'js/svg-fallback.js', 'js/twitter.js'],
         before: ['out/main.js', 'out/main.css']
     }
   });
