@@ -127,12 +127,15 @@
 
 	<div class="container dark-tile-bg padded">
 	<div class="row clearfix">
-		<div id="twitter" class="col6">
+		<div id="twitter" class="col4">
 			<h2>Twitter: @{{site.twitter}}</h2>
 		</div>
-		<div class="col6 last">
+		<div class="col4 odls-germany">
+			{{{document.content.odls-germany}}}
+		</div>
+		<div class="col4 last">
 			<h2>Facebook</h2>
-			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:98%;" allowTransparency="true"></iframe>
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:97%;" allowTransparency="true"></iframe>
 		</div>
 	</div>
 	</div>

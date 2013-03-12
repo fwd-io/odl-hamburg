@@ -102,6 +102,9 @@ button.donate img {
 .contact li:last-child {
   padding-bottom: 0;
 }
+.odls-germany ul {
+  padding-left: 0;
+}
 #twitter ul {
   font-size: 0.7em;
   padding: 0 0 0.6em;
