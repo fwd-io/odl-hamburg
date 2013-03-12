@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     uglify: {
         dist: {
             files: {
-                'out/js/twitter.js': ['out/js/twitter.js']
+                'out/js/main.js': ['out/js/twitter.js', 'out/js/svg-fallback.js']
             }
         }
     },
