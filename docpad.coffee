@@ -6,7 +6,7 @@ module.exports =
             twitter: "odl_hh"
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
             email: "hello@opendevicelab.de"
-            phone: "1234 5678"
+            phone: "+49 (0)40 2388 1356"
             gdomain: "opendevicelab.de"
             gid: "UA-35083554-1"
         devices:
