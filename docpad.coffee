@@ -5,6 +5,7 @@ module.exports =
             title: "Open Device Lab Hamburg"
             twitter: "odl_hh"
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
+            appid: "626483900710424"
             email: "hello@opendevicelab.de"
             phone: "+49 (0)40 2388 1356"
             gdomain: "opendevicelab.de"
