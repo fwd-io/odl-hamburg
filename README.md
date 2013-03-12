@@ -46,11 +46,11 @@ Create a separate document in `documents/` for every language you want to suppor
 
 ### Github Pages
 
-Deployment to github pages is very simple. With the skeleton comes a shell script that automates the process of pushing to the gh-pages branch for you. Just run:
+Deployment to github pages is very simple. With the skeleton comes a shell script that automates the process of pushing the contents of the `out/` folder to the gh-pages branch for you. Just run:
 
     ./gh-pages.sh
 
-//Note//: For that script to work, you must have specified a remote named `origin` that points to your github repository.
+//Note//: For that script to work, you must have specified a remote named `origin` that points to your github repository. Also, if you have development plugins like the livereload-plugin installed, you may want to run `docpad generate --env static` instead of `docpad run` which will generate static files in `out/` without the livereload scripts.
 
 ### Any other server
 
