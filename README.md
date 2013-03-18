@@ -32,7 +32,7 @@ Enjoy!
 
 ### Twitter
 
-With odl.docpad comes a small javascript utility that reads twitter status updates and inserts them into the site. It can be found in `documents/js/twitter.js`. To use it, enter your twitter username (Without the '@') in the `user` variable of the script.
+With odl.docpad comes a small javascript utility that reads twitter status updates and inserts them into the site. It can be found in `documents/assets/js/main.js`. To use it, enter your twitter username (Without the '@') in the `user` variable of the script.
 
 ### docpad.coffeee 
 
@@ -46,7 +46,7 @@ Create a separate document in `documents/` for every language you want to suppor
 
 ### Github Pages
 
-Deployment to github pages is very simple. With the skeleton comes a shell script that automates the process of pushing the contents of the `out/` folder to the gh-pages branch for you. Just run:
+Deployment to github pages is very simple. With the skeleton comes a shell script that automates the process of pushing the contents of the `out/` folder to the gh-pages branch for you. Just run (in the root folder of your project):
 
     ./gh-pages.sh
 
