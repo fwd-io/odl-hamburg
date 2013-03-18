@@ -3,7 +3,7 @@ module.exports =
     templateData:
         site:
             title: "Open Device Lab X"
-            twitter: "username"
+            twitter: "odl"
             facebook: "https://www.facebook.com/facebookdevelopers"
             email: "hello@example.com"
             phone: "1234 5678"

@@ -1,5 +1,5 @@
 twitter = {
-    user: 'odl_hh',
+    user: 'odl',
     numTweets: 3,
     appendTo: '#twitter',
 
