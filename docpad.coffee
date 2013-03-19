@@ -117,6 +117,3 @@ module.exports =
                 lowercase: (string) ->
                     string.toLowerCase()
 
-                safeurl: (url) ->
-                    encodeURI(url)
-
