@@ -4,10 +4,10 @@ module.exports =
         site:
             title: "Open Device Lab Hamburg"
             twitter: "odl_hh"
+            phone: "+49 40 1829 8086"
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
             appid: "626483900710424"
             email: "hello@opendevicelab.de"
-            phone: "+49 (0)40 2388 1356"
             gdomain: "opendevicelab.de"
             gid: "UA-35083554-1"
         devices:
@@ -88,6 +88,13 @@ module.exports =
                 version: "2.3.6"
                 contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
                 type: "phone"
+            GalaxyS3:
+                manufacturer: "Samsung"
+                model: "Galaxy S III"
+                os: "Android"
+                version: "4.1.2"
+                contributor: "<a target='_blank' href='http://fwd.io'>FWD.IO</a>"
+                type: "phone"
             GalaxyTab:
                 manufacturer: "Samsung"
                 model: "Galaxy Tab 10.1 M"
@@ -117,3 +124,5 @@ module.exports =
                 lowercase: (string) ->
                     string.toLowerCase()
 
+                safeurl: (url) ->
+                    encodeURI(url)
