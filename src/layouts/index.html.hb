@@ -138,7 +138,7 @@
         </div>
         <div class="col4 last">
           <h2>Facebook</h2>
-          <iframe src="//www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;width=292&amp;height=258&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId={{site.appid}}" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:300px;" allowTransparency="true"></iframe>
+          <iframe src="//www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;width=292&amp;height=258&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId={{site.appid}}" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:99%; height:300px;" allowTransparency="true"></iframe>
         </div>
       </div>
     </div>
