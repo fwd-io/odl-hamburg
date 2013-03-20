@@ -79,7 +79,6 @@ header {
 		font-weight: bold;
 		text-decoration: underline;
 		display: block;
-		margin-top: 25px;
 	}
 
 	p {
@@ -104,6 +103,7 @@ button.donate {
 	padding: 1em 1em 1em 4.8em;
 	font-weight: bold;
 	position: relative;
+	margin-top: 10px;
 
 	img {
 		position: absolute;
@@ -207,7 +207,6 @@ b {
 
 .language-switch {
 	color: @hero-grey;
-	float: right;
 	position: absolute;
 	right: 5em;
 
@@ -427,10 +426,14 @@ html {
 // =================
 
 @media screen and (max-width: 767px) {
+	header img {
+		padding: 1em;
+	}
+
 	.col4, .col6, .col3 {
 		float: none;
 		width: 100%;
-		margin-bottom: 3em;
+		margin-bottom: 2em;
 	}
 
 	.last {
@@ -442,11 +445,6 @@ html {
 		display: block;
 	}
 
-	.language-switch {
-		float: none;
-		margin-right: 0;
-	}
-
 	h2 {
 		text-align: center;
 		margin: 0.5em 0;
@@ -454,6 +452,7 @@ html {
 
 	p {
 		margin: 0.4em 0;
+		font-size: 0.9em;
 	}
 
 	.quickinfo {
@@ -469,8 +468,8 @@ html {
 	}
 
 	.padded {
-		padding-top: 3em;
-		padding-bottom: 3em;
+		padding-top: 1em;
+		padding-bottom: 1em;
 	}
 
 	li {
@@ -484,13 +483,16 @@ html {
 
 	header p {
 		font-size: 1.3em;
-		padding: 0 1em;
 	}
 
 	.wide li {
 		display: inherit;
 	}
-	
+
+	#device-table {
+		margin-top: 2em;
+	}
+
 	// --- Responsive Table ---
 	table, thead, tbody, th, td, tr {
 		display: block;
