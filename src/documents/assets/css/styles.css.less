@@ -1,5 +1,4 @@
 @import 'normalize.less';
-@import 'fonts.less';
 
 @nav-border: #454648;
 @language-switch: #b5c1c1;
@@ -80,7 +79,6 @@ header {
 		font-weight: bold;
 		text-decoration: underline;
 		display: block;
-		margin-top: 25px;
 	}
 
 	p {
@@ -105,12 +103,15 @@ button.donate {
 	padding: 1em 1em 1em 4.8em;
 	font-weight: bold;
 	position: relative;
-	margin-top: 1em;
+	margin-top: 10px;
 
 	img {
 		position: absolute;
-		top: -0.4em;
+		top: 50%;
 		left: 1em;
+		width: 44px;
+		height: 65px;
+		margin: -32px 0 0;
 	}
 }
 
@@ -206,7 +207,6 @@ b {
 
 .language-switch {
 	color: @hero-grey;
-	float: right;
 	position: absolute;
 	right: 5em;
 
@@ -217,7 +217,7 @@ b {
 }
 
 p {
-	line-height: 1.5em;	
+	line-height: 1.3em;	
 }
 
 ul {
@@ -266,57 +266,60 @@ th, td {
 	display: inline-block;
 	width: 36px;
 	height: 38px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
 	position: relative;
 	top: 14px;
 	margin-right: 10px;
 }
 
 .svg .phone {
-	background: url('../img/phone.svg') no-repeat center;
+	background-image: url('../img/phone.svg'); 
 }
 
 .svg .tablet {
-	background: url('../img/tablet.svg') no-repeat center;
+	background-image: url('../img/tablet.svg'); 
 }
 
 .svg .ios {
-	background: url('../img/ios.svg') no-repeat center;
+	background-image: url('../img/ios.svg'); 
 }
 
 .svg .os {
-	background: url('../img/blackberry.svg') no-repeat center;
+	background-image: url('../img/blackberry.svg'); 
 }
 
 .svg .android {
-	background: url('../img/android.svg') no-repeat center;
+	background-image: url('../img/android.svg'); 
 }
 
 .svg .symbian {
-	background: url('../img/symbian.svg') no-repeat center;
+	background-image: url('../img/symbian.svg'); 
 }
 
 .no-svg .phone {
-	background: url('../img/bitmaps/phone.png') no-repeat center;
+	background-image: url('../img/bitmaps/phone.png'); 
 }
 
 .no-svg .tablet {
-	background: url('../img/bitmaps/tablet.png') no-repeat center;
+	background-image: url('../img/bitmaps/tablet.png'); 
 }
 
 .no-svg .ios {
-	background: url('../img/bitmaps/ios.png') no-repeat center;
+	background-image: url('../img/bitmaps/ios.png'); 
 }
 
 .no-svg .os {
-	background: url('../img/bitmaps/blackberry.png') no-repeat center;
+	background-image: url('../img/bitmaps/blackberry.png'); 
 }
 
 .no-svg .android {
-	background: url('../img/bitmaps/android.png') no-repeat center;
+	background-image: url('../img/bitmaps/android.png'); 
 }
 
 .no-svg .symbian {
-	background: url('../img/bitmaps/symbian.png') no-repeat center;
+	background-image: url('../img/bitmaps/symbian.png'); 
 }
 
 tbody tr:nth-child(2n) {
@@ -423,10 +426,14 @@ html {
 // =================
 
 @media screen and (max-width: 767px) {
+	header img {
+		padding: 1em;
+	}
+
 	.col4, .col6, .col3 {
 		float: none;
 		width: 100%;
-		margin-bottom: 3em;
+		margin-bottom: 2em;
 	}
 
 	.last {
@@ -438,11 +445,6 @@ html {
 		display: block;
 	}
 
-	.language-switch {
-		float: none;
-		margin-right: 0;
-	}
-
 	h2 {
 		text-align: center;
 		margin: 0.5em 0;
@@ -450,6 +452,7 @@ html {
 
 	p {
 		margin: 0.4em 0;
+		font-size: 0.9em;
 	}
 
 	.quickinfo {
@@ -465,8 +468,8 @@ html {
 	}
 
 	.padded {
-		padding-top: 3em;
-		padding-bottom: 3em;
+		padding-top: 1em;
+		padding-bottom: 1em;
 	}
 
 	li {
@@ -480,13 +483,16 @@ html {
 
 	header p {
 		font-size: 1.3em;
-		padding: 0 1em;
 	}
 
 	.wide li {
 		display: inherit;
 	}
-	
+
+	#device-table {
+		margin-top: 2em;
+	}
+
 	// --- Responsive Table ---
 	table, thead, tbody, th, td, tr {
 		display: block;
