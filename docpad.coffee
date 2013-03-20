@@ -16,12 +16,26 @@ module.exports =
                 contributor: "<a href='http://www.example.com'>John Doe</a>"
                 type: "phone"
             ipodtouch4g:
-                manufacturer: "Apple"
-                model: "iPad 3"
-                os: "iOS"
-                version: "6"
+                manufacturer: "Samsung"
+                model: "Galaxy Tab"
+                os: "Android"
+                version: "4"
                 contributor: "Foocorp"
                 type: "tablet"
+            foo:
+                manufacturer: "RIM"
+                model: "Blackberry Bolt"
+                os: "OS"
+                version: "6"
+                contributor: "Monsters, Inc."
+                type: "phone"
+            bar:
+                manufacturer: "Nokia"
+                model: "Communicat0r"
+                os: "Symbian"
+                version: "0.0.1"
+                contributor: "Foocorp"
+                type: "phone"
 
     ## Helpers for the handlebars templating engine
     plugins:

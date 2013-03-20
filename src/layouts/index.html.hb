@@ -62,7 +62,7 @@
               <a target"_blank" href="http://www.twitter.com/{{site.twitter}}">@{{site.twitter}}</a>
             </li>
             <li>
-              <img src="{{document.pathToRoot}}/assets/img/mail.svg" width="16" height="16">
+              <img src="{{document.pathToRoot}}/assets/img/mail.svg" width="22" height="16">
               <a href="mailto:{{{site.email}}}">{{{site.email}}}</a>
             </li>
           </ul>

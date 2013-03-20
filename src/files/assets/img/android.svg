@@ -1,21 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	  viewBox="0 0 21.019 24.567" xml:space="preserve">
-<g>
-	<path fill-rule="evenodd" fill="#BAC6C6" clip-rule="evenodd" d="M19.524,7.699c-0.825,0-1.495,0.68-1.495,1.518v5.932
-		c0,0.838,0.669,1.518,1.495,1.518c0.826,0,1.495-0.68,1.495-1.518V9.217C21.019,8.378,20.35,7.699,19.524,7.699z M1.495,7.699
-		C0.669,7.699,0,8.378,0,9.217v5.932c0,0.838,0.669,1.518,1.495,1.518c0.825,0,1.495-0.68,1.495-1.518V9.217
-		C2.989,8.378,2.32,7.699,1.495,7.699z"/>
-	<path fill-rule="evenodd" fill="#BAC6C6" clip-rule="evenodd" d="M3.889,7.745v10.838c0,0.644,0.521,1.166,1.166,1.166h1.332v3.3
-		c0,0.838,0.669,1.518,1.495,1.518c0.826,0,1.495-0.68,1.495-1.518v-3.3h2.327v3.3c0,0.838,0.669,1.518,1.495,1.518
-		c0.826,0,1.495-0.68,1.495-1.518v-3.3h1.332c0.644,0,1.166-0.522,1.166-1.166V7.745H3.889z"/>
-	<path fill-rule="evenodd" fill="#BAC6C6" clip-rule="evenodd" d="M13.662,2.128l1.229-1.784c0.073-0.106,0.055-0.245-0.041-0.311
-		c-0.096-0.065-0.232-0.033-0.305,0.073l-1.276,1.853c-0.841-0.332-1.775-0.516-2.76-0.516S8.591,1.628,7.75,1.959L6.473,0.107
-		C6.4,0.001,6.264-0.032,6.168,0.034C6.073,0.1,6.055,0.239,6.128,0.345l1.229,1.784c-1.954,0.909-3.323,2.635-3.498,4.65h13.3
-		C16.985,4.764,15.615,3.037,13.662,2.128z M7.704,4.939c-0.406,0-0.736-0.329-0.736-0.736c0-0.406,0.33-0.736,0.736-0.736
-		c0.407,0,0.736,0.33,0.736,0.736C8.439,4.61,8.11,4.939,7.704,4.939z M13.407,4.939c-0.406,0-0.736-0.329-0.736-0.736
-		c0-0.406,0.33-0.736,0.736-0.736c0.407,0,0.736,0.33,0.736,0.736C14.143,4.61,13.813,4.939,13.407,4.939z"/>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Ebene_2"
+   x="0px"
+   y="0px"
+   viewBox="0 0 36 38"
+   xml:space="preserve"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="android.svg"
+   inkscape:export-filename="/home/raffo/data/workspace/fwd.io/odl.docpad/src/files/assets/img/bitmaps/android.png"
+   inkscape:export-xdpi="139.20779"
+   inkscape:export-ydpi="139.20779"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs13" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="956"
+   inkscape:window-height="1053"
+   id="namedview11"
+   showgrid="false"
+   inkscape:zoom="9.6063825"
+   inkscape:cx="11.134085"
+   inkscape:cy="12.2835"
+   inkscape:window-x="2560"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Ebene_2" />
+<g
+   id="g3"
+   transform="matrix(1.5423599,0,0,1.5423599,2,0.1088447)">
+	<path
+   clip-rule="evenodd"
+   d="m 19.524,7.699 c -0.825,0 -1.495,0.68 -1.495,1.518 v 5.932 c 0,0.838 0.669,1.518 1.495,1.518 0.826,0 1.495,-0.68 1.495,-1.518 V 9.217 c 0,-0.839 -0.669,-1.518 -1.495,-1.518 z m -18.029,0 C 0.669,7.699 0,8.378 0,9.217 v 5.932 c 0,0.838 0.669,1.518 1.495,1.518 0.825,0 1.495,-0.68 1.495,-1.518 V 9.217 C 2.989,8.378 2.32,7.699 1.495,7.699 z"
+   id="path5"
+   inkscape:connector-curvature="0"
+   style="fill:#bac6c6;fill-rule:evenodd" />
+	<path
+   clip-rule="evenodd"
+   d="m 3.889,7.745 v 10.838 c 0,0.644 0.521,1.166 1.166,1.166 h 1.332 v 3.3 c 0,0.838 0.669,1.518 1.495,1.518 0.826,0 1.495,-0.68 1.495,-1.518 v -3.3 h 2.327 v 3.3 c 0,0.838 0.669,1.518 1.495,1.518 0.826,0 1.495,-0.68 1.495,-1.518 v -3.3 h 1.332 c 0.644,0 1.166,-0.522 1.166,-1.166 V 7.745 H 3.889 z"
+   id="path7"
+   inkscape:connector-curvature="0"
+   style="fill:#bac6c6;fill-rule:evenodd" />
+	<path
+   clip-rule="evenodd"
+   d="M 13.662,2.128 14.891,0.344 C 14.964,0.238 14.946,0.099 14.85,0.033 14.754,-0.032 14.618,0 14.545,0.106 L 13.269,1.959 C 12.428,1.627 11.494,1.443 10.509,1.443 9.524,1.443 8.591,1.628 7.75,1.959 L 6.473,0.107 C 6.4,0.001 6.264,-0.032 6.168,0.034 6.073,0.1 6.055,0.239 6.128,0.345 L 7.357,2.129 C 5.403,3.038 4.034,4.764 3.859,6.779 h 13.3 C 16.985,4.764 15.615,3.037 13.662,2.128 z M 7.704,4.939 c -0.406,0 -0.736,-0.329 -0.736,-0.736 0,-0.406 0.33,-0.736 0.736,-0.736 0.407,0 0.736,0.33 0.736,0.736 C 8.439,4.61 8.11,4.939 7.704,4.939 z m 5.703,0 c -0.406,0 -0.736,-0.329 -0.736,-0.736 0,-0.406 0.33,-0.736 0.736,-0.736 0.407,0 0.736,0.33 0.736,0.736 0,0.407 -0.33,0.736 -0.736,0.736 z"
+   id="path9"
+   inkscape:connector-curvature="0"
+   style="fill:#bac6c6;fill-rule:evenodd" />
 </g>
 </svg>
