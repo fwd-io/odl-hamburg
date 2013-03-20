@@ -117,7 +117,7 @@
           {{{document.content.contact}}}
           <ul>
             <li><b>Twitter:</b> <a href="http://www.twitter.com/{{site.twitter}}">@{{site.twitter}}</a></li>
-            {{#if site.phone}}<li><b>Telefon:</b> {{{site.phone}}}</li>{{/if}}
+            {{#if site.phone}}<li><b>Phone:</b> {{{site.phone}}}</li>{{/if}}
             <li><b>E-Mail:</b> <a href="mailto:{{{site.email}}}">{{{site.email}}}</a></li>
           </ul>
         </div>
