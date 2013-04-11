@@ -18,6 +18,7 @@ module.exports =
                 version: "6"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
+                dead: true
             ipodtouch4g:
                 manufacturer: "Apple"
                 model: "iPod Touch 4G"
