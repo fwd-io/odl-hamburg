@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{site.title}}</title>
+    {{#ifCond document.languageName "en"}} 
+      <link rel="canonical" href="http://hamburg.opendevicelab.de">
+    {{/ifCond}}
     {{#getBlock "styles" document.pathToRoot "/assets/css/styles.css"}}{{/getBlock}}
     {{#getBlock "meta"}}{{/getBlock}}
     <script src="{{document.pathToRoot}}/assets/js/vendor/modernizr.js"></script>
@@ -98,7 +101,7 @@
             </thead>
             <tbody>
               {{#each devices}} 
-              <tr>
+              <tr {{#if this.dead }} class="dead" {{/if}}>
                 <td>{{{this.manufacturer}}}</td>
                 <td><span class="{{this.type}}"></span>{{{this.model}}}</td>
                 <td><span class="{{#lowercase this.os}}{{/lowercase}}"></span>{{this.os}} {{this.version}}</td>
