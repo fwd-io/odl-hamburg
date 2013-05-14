@@ -50,7 +50,7 @@ Deployment to github pages is very simple. With the skeleton comes a shell scrip
 
     ./gh-pages.sh
 
-//Note//: For that script to work, you must have specified a remote named `origin` that points to your github repository. Also, if you have development plugins like the livereload-plugin installed, you may want to run `docpad generate --env static` instead of `docpad run` which will generate static files in `out/` without the livereload scripts.
+**Note**: For that script to work, you must have specified a remote named `origin` that points to your github repository. Also, if you have development plugins like the livereload-plugin installed, you may want to run `docpad generate --env static` instead of `docpad run` which will generate static files in `out/` without the livereload scripts.
 
 ### Any other server
 
