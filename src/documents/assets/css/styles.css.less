@@ -5,7 +5,7 @@
 @language-switch: #b5c1c1;
 
 @custom-white: #eeefef;
-@dark-grey: #555c5c;
+@dark-grey: #545d5c;
 @hr-grey: #c3d1d1;
 
 @link-grey: #aab9b7;
@@ -86,10 +86,6 @@ header {
 		text-decoration: underline;
 		display: block;
 	}
-
-	p {
-		line-height: 1.5em;
-	}
 }
 
 button.donate {
@@ -134,7 +130,7 @@ button.donate {
 	}
 
 	li {
-		padding-bottom: 0.5em;
+		padding-bottom: 0.2em;
 	}
 
 	li:last-child {
@@ -147,9 +143,14 @@ button.donate {
 }
 
 #twitter {
+	p {
+		margin-bottom: 0;
+	}
+
 	ul {
-		font-size: 0.7em;
-		padding: 0 0 0.6em;
+		font-size: 0.8em;
+		padding: 0;
+		margin-top: 0.3em;
 	}
 
 	li:after {
@@ -209,6 +210,7 @@ a {
 
 b {
 	font-family: "Adelle-Bold";
+	font-size: 0.9em;
 }
 
 .language-switch {
@@ -223,7 +225,7 @@ b {
 }
 
 p {
-	line-height: 1.3em;	
+	line-height: 1.7em;	
 }
 
 ul {
@@ -238,13 +240,18 @@ ul {
 	border-right: 1px solid @custom-white;
 }
 
+h1 {
+	letter-spacing: 1px;
+}
+
 h2 {
 	margin: 0 0 25px;
 	font-family: Adelle-Bold;
 	font-weight: 400;
+	font-size: 1.35em;
 }
 
-p, h2, table, ul {
+p, h2, h1, table, ul {
 	color: @dark-grey;
 }
 
@@ -391,7 +398,7 @@ body {
 	margin: 0;
 	font-family: 'Adelle-Regular';
 	font-weight: 400;
-	font-size: 1.04em;
+	font-size: 0.92em;
 }
 
 html {
