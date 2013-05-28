@@ -7,6 +7,12 @@ module.exports =
             facebook: "https://www.facebook.com/facebookdevelopers"
             email: "hello@example.com"
             phone: "1234 5678"
+        partnerLogos: [
+            {
+                path: "assets/img/android.svg"
+                url: "http://www.fwd.io"
+            }
+        ]
         devices:
             iphone3gs: 
                 manufacturer: "Apple"

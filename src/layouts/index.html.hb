@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    {{#if document.partner-logos}}
+    {{#if partnerLogos}}
       <div class="container padded">
         <div class="row">
           <div class="col12">
@@ -147,8 +147,8 @@
           </div>
         </div>
         <div class="row clearfix">
-          {{#each document.partner-logos}}
-            <div class="col3 last"><img src="{{this}}" alt="" class="center"></div>
+          {{#each partnerLogos}}
+            <div class="col3 last"><a href="{{this.url}}" target="_blank"><img src="{{this.path}}" alt="" class="center"></a></div>
           {{/each}}
         </div>
       </div>
