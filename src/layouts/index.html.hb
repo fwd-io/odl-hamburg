@@ -145,16 +145,17 @@
         </div>
       </div>
     </div>
-    {{#if document.partner-logos}}
+    {{#if partnerLogos}}
       <div class="container padded">
         <div class="row">
           <div class="col12">
             <h2>Meet our Partners</h2>
           </div>
         </div>
+
         <div class="row center">
-          {{#each document.partner-logos}}
-            <img src="{{this}}" alt="" class="logo">
+          {{#each partnerLogos}}
+            <a href="{{this.url}}" target="_blank"><img src="{{this.path}}" alt="" class="logo"></a>
           {{/each}}
         </div>
       </div>

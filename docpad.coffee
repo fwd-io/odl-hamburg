@@ -10,6 +10,16 @@ module.exports =
             email: "hello@opendevicelab.de"
             gdomain: "opendevicelab.de"
             gid: "UA-35083554-1"
+        partnerLogos: [
+            {
+                path: "assets/img/fwdio-black.svg"
+                url: "http://www.fwd.io"
+            }
+            {
+                path: "assets/img/coverup.svg"
+                url: "http://www.coverupaccessories.com/"
+            }
+        ]
         devices:
             iphone3gs: 
                 manufacturer: "Apple"
