@@ -36,6 +36,14 @@ module.exports =
                 version: "6"
                 contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
                 type: "phone"
+            iphone5:
+                manufacturer: "Apple"
+                model: "iPhone 5"
+                os: "iOS"
+                version: "6.1.4"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
+                private: true
             ipad3:
                 manufacturer: "Apple"
                 model: "iPad 3"
