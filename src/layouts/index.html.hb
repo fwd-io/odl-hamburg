@@ -103,13 +103,14 @@
               {{#each devices}} 
               <tr {{#if this.dead }} class="dead" {{/if}}>
                 <td>{{{this.manufacturer}}}</td>
-                <td><span class="{{this.type}}"></span>{{{this.model}}}</td>
+                <td><span class="{{this.type}}"></span>{{{this.model}}}{{#if this.private}} *{{/if}}</td>
                 <td><span class="{{#lowercase this.os}}{{/lowercase}}"></span>{{this.os}} {{this.version}}</td>
                 <td>{{{this.contributor}}}</td>
               </tr>
               {{/each}}
             </tbody>
           </table>
+          <p>{{document.content.private-device}}</p>
         </div>
       </div>
     </div>
