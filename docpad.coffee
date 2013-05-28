@@ -36,6 +36,13 @@ module.exports =
                 version: "0.0.1"
                 contributor: "Foocorp"
                 type: "phone"
+            webos:
+                manufacturer: "HP"
+                model: "Minitinyphone"
+                os: "WebOS"
+                version: "3"
+                contributor: "HP"
+                type: "phone"
 
     ## Helpers for the handlebars templating engine
     plugins:
