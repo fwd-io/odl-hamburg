@@ -150,7 +150,7 @@
       <div class="container padded">
         <div class="row">
           <div class="col12">
-            <h2>Meet our Partners</h2>
+            {{{document.content.partner}}}
           </div>
         </div>
 
