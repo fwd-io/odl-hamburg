@@ -152,9 +152,9 @@
             <h2>Meet our Partners</h2>
           </div>
         </div>
-        <div class="row clearfix">
+        <div class="row center">
           {{#each document.partner-logos}}
-            <div class="col3 last"><img src="{{this}}" alt="" class="center"></div>
+            <img src="{{this}}" alt="" class="logo">
           {{/each}}
         </div>
       </div>
