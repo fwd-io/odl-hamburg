@@ -82,6 +82,13 @@ module.exports =
                 version: "2.2.1"
                 contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
                 type: "phone"
+            PalmPixiPlus:
+                manufacturer: "Palm"
+                model: "Palm Pixi Plus"
+                os: "Palm webOS"
+                version: "1.4.5"
+                contributor: "<a target='_blank' href='http://fwd.io'>FWD.IO</a>"
+                type: "phone"
             GalaxyS:
                 manufacturer: "Samsung"
                 model: "Galaxy S"
