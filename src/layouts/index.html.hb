@@ -66,7 +66,7 @@
             </li>
             <li>
               <img src="{{document.pathToRoot}}/assets/img/mail.svg" width="22" height="16">
-              <a href="mailto:{{{site.email}}}">{{{site.email}}}</a>
+              <a href="mailto:{{{site.email}}}" target="blank">{{{site.email}}}</a>
             </li>
           </ul>
         </div>
@@ -83,7 +83,7 @@
         </div>
         <div class="col4 last">
           {{{document.content.quickinfo-3}}}  
-          <button class="donate"><img src="{{document.pathToRoot}}/assets/img/donate_device.svg">{{document.content.donate-button}}</button>
+          <a class="donate" href="mailto:{{{site.email}}}" target="blank"><img src="{{document.pathToRoot}}/assets/img/donate_device.svg">{{document.content.donate-button}}</a>
         </div>
       </div>
 
