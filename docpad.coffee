@@ -158,3 +158,8 @@ module.exports =
                         return options.fn(this)
                     else 
                         options.inverse(this);
+        sitemap:
+            hostname: "http://hamburg.opendevicelab.de"
+
+    ## Dev stuff
+    growl: false
