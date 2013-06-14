@@ -134,8 +134,9 @@
 
     <div class="container dark-tile-bg padded">
       <div class="row clearfix">
-        <div id="twitter" class="col4">
+        <div class="col4">
           <h2>Twitter: @{{site.twitter}}</h2>
+          <a class="twitter-timeline" data-tweet-limit="3" data-chrome="noheader nofooter transparent" data-dnt="true" href="https://twitter.com/odl_hh"  data-widget-id="345529577604542466">Tweets by @odl_hh</a>
         </div>
         <div class="col4 odls-germany">
           {{{document.content.odls-germany}}}
