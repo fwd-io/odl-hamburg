@@ -38,7 +38,7 @@
     "devDependencies": {
         "coffee-script": "1.4.x"
     },
-	"main": "./sitemap.plugin.coffee",
+	"main": "./out/sitemap.plugin.js",
     "scripts": {
         "test": "node ./test/sitemap.test.js"
     }

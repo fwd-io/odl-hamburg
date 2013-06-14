@@ -47,18 +47,44 @@ module.exports = (BasePlugin) ->
 
     constructor: ->
       super
-      @config.sitemapPath = path.normalize "out/sitemap.xml"
+      # filesPaths[1] points to 'src/public', which we want here
+      @config.sitemapPath = path.normalize "#{@docpad.config.filesPaths[1]}/sitemap.xml"
 
 
     # --------------
     # Docpad events
+
+    # Create the sitemap.xml site-wide data at the very beginning,
+    # so that DocPad copies it to the `out` directory
+    generateBefore: ({}, next) ->
+      # Prepare
+      config = @config
+      sitemap = @sitemap
+      logger = @docpad.logger
+
+      if path.existsSync config.sitemapPath
+        logger.log "debug", "The sitemap.xml file already exists"
+
+        # Done, let DocPad proceed
+        next?()
+      else
+        logger.log "debug", "Creating the sitemap.xml file..."
+        balUtil.writeFile config.sitemapPath, '', (err) ->
+          return next?(err) if err
+          logger.log "debug", "Created the sitemap.xml file."
+
+          # Creates the site-wide sitemap data
+          _.extend sitemap, config.defaultsGlobal
+
+          # Done, let DocPad proceed
+          next?()
 
     # Populate the sitemap.xml data for each document
     renderDocument: (opts, next) ->
       # Prepare
       {extension,templateData,file} = opts
       config = @config
-      docpad = @docpad
+      logger = @docpad.logger
       sitemap = @sitemap
 
       # Only HTML documents are of interest for a sitemap
@@ -69,11 +95,11 @@ module.exports = (BasePlugin) ->
 
         # Create document's data
         docMap =
-          url: config['hostname'] + file.get 'url'
+          url: file.get 'url'
           changefreq: templateData.changefreq
           priority: templateData.priority
 
-        docpad.log "debug", "sitemap.xml data => url: #{docMap.url} - changefreq: #{docMap.changefreq} - priority: #{docMap.priority}"
+        logger.log "debug", "sitemap.xml data => url: #{docMap.url} - changefreq: #{docMap.changefreq} - priority: #{docMap.priority}"
 
         # Add document data to site-wide map
         sitemap.urls.push docMap
@@ -85,22 +111,22 @@ module.exports = (BasePlugin) ->
     writeBefore: ({}, next) ->
       # Prepare
       config = @config
-      docpad = @docpad
+      logger = @docpad.logger
       sitemap = @sitemap
 
-      docpad.log "debug", "Sitemap data :\n#{JSON.stringify sitemap, null, 4}"
+      logger.log "debug", "Sitemap data :\n#{JSON.stringify sitemap, null, 4}"
 
       # Create a sitemap.js object
       sitemap = sm.createSitemap(sitemap);
 
-      docpad.log "debug", "sitemap.xml file content :\n#{sitemap.toString()}"
+      logger.log "debug", "sitemap.xml file content :\n#{sitemap.toString()}"
 
       # Fill the sitemap.xml file with data
       balUtil.writeFile config.sitemapPath, sitemap.toString(), (err) ->
         # Check
         return next?(err)  if err
 
-        docpad.log 'debug', "Wrote the sitemap.xml file to: #{config.sitemapPath}"
+        logger.log 'debug', "Wrote the sitemap.xml file to: #{config.sitemapPath}"
 
         # Done, let DocPad proceed
         next?()

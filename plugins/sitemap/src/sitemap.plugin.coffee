@@ -1,83 +1,107 @@
 # Export Plugin
 module.exports = (BasePlugin) ->
-	# Requires
-	# Node modules
-	path = require('path')
-	fs = require('fs')
-	url = require('url')
-	util = require('util')
+  # Requires
+  # Node modules
+  path = require('path')
+  fs = require('fs')
+  url = require('url')
+  util = require('util')
 
-	# DocPad
-	balUtil = require('bal-util')
+  # DocPad
+  balUtil = require('bal-util')
 
-	# External
-	sm = require('sitemap')
+  # External
+  _ = require('underscore')
+  sm = require('sitemap')
 
-	# Define Plugin
-	class SitemapPlugin extends BasePlugin
-		# Plugin name
-		name: 'sitemap'
+  # Define Plugin
+  class SitemapPlugin extends BasePlugin
+    # Plugin name
+    name: 'sitemap'
 
-		# --------------
-		# Configuration values
+    # --------------
+    # Configuration values
 
-		# default values
-		config:
-			defaults:
-				cachetime: 10*60*1000 # 10 minute cache period
-				changefreq: 'weekly'
-				priority: 0.5
-				hostname: 'http://www.change-me.com'
+    # default values
+    config:
+      sitemapPath: "" # populated in the constructor
+      # Default values
+      # the following defaults are for the whole sitemap.xml file
+      defaultsGlobal:
+        hostname: "http://example.com" # Obviously need to be changed
+        cachetime: 600000 # 600 seconds cache period
+      # the following defaults are per-document
+      defaultsPerDoc:
+        changefreq: 'weekly'
+        priority: 0.5
 
-		# The sitemap being built, to be passed to sitemap.js
-		sitemap:
-			hostname: null
-			cachetime: null
-			urls: []
+    # The sitemap being built, to be passed to sitemap.js
+    sitemap:
+      hostname: null
+      cachetime: null
+      urls: []
 
-		# --------------
-		# Docpad events
 
-		# Create the sitemap.xml site-wide data at the very beginning,
-		# so that DocPad copies it to the `out` directory
+    # --------------
+    # Constructor
 
-		writeAfter: (opts,next) ->
-			docpad = @docpad
-			config = @config
-			sitemap = @sitemap
-			templateData = docpad.getTemplateData()
+    constructor: ->
+      super
+      @config.sitemapPath = path.normalize "#{@docpad.config.outPath}/sitemap.xml"
 
-			siteUrl = templateData.site.url
 
-			# create sitemap data object
-			sitemapData = balUtil.extend sitemap, config.defaults
-			# set hostename from site url in global config
-			sitemapData.hostname = siteUrl ? sitemapData.hostname
-			# use global outPath for sitemap path
-			sitemapPath = docpad.getConfig().outPath+'/sitemap.xml'
+    # --------------
+    # Docpad events
 
-			docpad.log('debug', 'Creating sitemap in ' + sitemapPath)
+    # Populate the sitemap.xml data for each document
+    renderDocument: (opts, next) ->
+      # Prepare
+      {extension,templateData,file} = opts
+      config = @config
+      docpad = @docpad
+      sitemap = @sitemap
 
-			# loop over just the html files in the resulting collection
-			docpad.getCollection('html').sortCollection(date:9).forEach (document) ->
-				if document.get('sitemap') isnt false and document.get('write') isnt false and document.get('ignored') isnt true and document.get('body')
-					# create document's sitemap data
-					data =
-						url: document.get('url')
-						changefreq: document.get('changefreq') ? config.defaults.changefreq
-						priority: document.get('priority') ? config.defaults.priority
+      # Only HTML documents are of interest for a sitemap
+      # todo: figure out how to reliably differenciate between document from other files (layouts, assets etc.)
+      if extension in ['html']
+        # Merge document's sitemap data and default values into document's metadata
+        templateData = _.extend templateData, config.defaultsPerDoc, templateData
 
-					sitemapData.urls.push data
+        # Create document's data
+        docMap =
+          url: config['hostname'] + file.get 'url'
+          changefreq: templateData.changefreq
+          priority: templateData.priority
 
-			# setup sitemap with our data
-			sitemap = sm.createSitemap(sitemapData);
+        docpad.log "debug", "sitemap.xml data => url: #{docMap.url} - changefreq: #{docMap.changefreq} - priority: #{docMap.priority}"
 
-			# write the sitemap to file
-			balUtil.writeFile sitemapPath, sitemap.toString(), (err) ->
-				# bail on error? Should really do something here
-				return next?(err)  if err
+        # Add document data to site-wide map
+        sitemap.urls.push docMap
 
-				docpad.log('debug', "Wrote the sitemap.xml file to: #{sitemapPath}")
+      # Done, let DocPad proceed
+      next?()
 
-				# Done, let DocPad proceed
-				next?()
+    # Write the sitemap.xml file in 'src/public' before DocPad moves it to 'out'
+    writeBefore: ({}, next) ->
+      # Prepare
+      config = @config
+      docpad = @docpad
+      sitemap = @sitemap
+
+      docpad.log "debug", "sitemap data :\n#{JSON.stringify sitemap, null, 4}"
+
+      # Create a sitemap.js object
+      sitemap = sm.createSitemap(sitemap);
+
+      docpad.log "debug", "sitemap.xml file content :\n#{sitemap.toString()}"
+      docpad.log "debug", "writing sitemap.xml to #{config.sitemapPath}"
+
+      # Fill the sitemap.xml file with data
+      balUtil.writeFile config.sitemapPath, sitemap.toString(), (err) ->
+        # Check
+        return next?(err)  if err
+
+        docpad.log 'debug', "Wrote the sitemap.xml file to: #{config.sitemapPath}"
+
+        # Done, let DocPad proceed
+        next?()
