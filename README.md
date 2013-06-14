@@ -32,7 +32,7 @@ Enjoy!
 
 ### Twitter
 
-With odl.docpad comes a small javascript utility that reads twitter status updates and inserts them into the site. It can be found in `documents/assets/js/main.js`. To use it, enter your twitter username (Without the '@') in the `user` variable of the script.
+There is a twitter timeline included. Just create a widget at [Twitter](https://twitter.com/settings/widgets) and insert the Widget id in the `twitterWidgetId` value in docpad.coffee.
 
 ### docpad.coffeee 
 

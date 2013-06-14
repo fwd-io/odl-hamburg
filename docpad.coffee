@@ -7,6 +7,7 @@ module.exports =
             facebook: "https://www.facebook.com/facebookdevelopers"
             email: "hello@example.com"
             phone: "1234 5678"
+            twitterWidgetId: "12341234"
         partnerLogos: [
             {
                 path: "assets/img/android.svg"
