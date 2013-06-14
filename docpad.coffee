@@ -10,6 +10,7 @@ module.exports =
             email: "hello@opendevicelab.de"
             gdomain: "opendevicelab.de"
             gid: "UA-35083554-1"
+            twitterWidgetId: "12341234"
         partnerLogos: [
             {
                 path: "assets/img/fwdio-black.svg"
