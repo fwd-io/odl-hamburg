@@ -50,7 +50,6 @@ module.exports = (BasePlugin) ->
 			# create sitemap data object
 			sitemapData = balUtil.extend sitemap, defaultConfig
 			sitemapData = balUtil.extend sitemapData, config
-			docpad.log "debug", sitemapData
 			# set hostename from site url in document
 			siteUrl = templateData.site.url
 			sitemapData.hostname = siteUrl ? sitemapData.hostname
@@ -65,8 +64,8 @@ module.exports = (BasePlugin) ->
 					# create document's sitemap data
 					data =
 						url: document.get('url')
-						changefreq: document.get('changefreq') ? defaultConfig.changefreq
-						priority: document.get('priority') ? defaultConfig.priority
+						changefreq: document.get('changefreq') ? sitemapData.changefreq
+						priority: document.get('priority') ? sitemapData.priority
 
 					docpad.log "debug", data
 					sitemapData.urls.push data

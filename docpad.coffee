@@ -160,6 +160,8 @@ module.exports =
                         options.inverse(this);
         sitemap:
             hostname: "http://hamburg.opendevicelab.de"
+            changefreq: "weekly"
+            priority: 1
 
     ## Dev stuff
     growl: false
