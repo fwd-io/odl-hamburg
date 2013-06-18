@@ -144,38 +144,13 @@ a.donate {
 	padding-left: 0;
 }
 
-#twitter {
-	p {
-		margin-bottom: 0;
-	}
+.container.logos {
+	margin: 2em 0 1em 0;
+}
 
-	ul {
-		font-size: 0.8em;
-		padding: 0;
-		margin-top: 0.3em;
-	}
-
-	li:after {
-		padding: 0 0.2em 0 0.5em;
-		content: "·";
-		color: @link-orange;
-	}
-
-	li:last-child:after {
-		content: "";
-	}
-
-	.tweet {
-		border-bottom: 1px solid @hr-grey;
-	}
-
-	.tweet:last-child {
-		border-bottom: none;
-	}
-
-	.time {
-		font-size: 0.7em;
-	}
+.nokia-program {
+	font-size: 0.9em;
+	margin-top: 3em;
 }
 
 footer {
@@ -324,6 +299,14 @@ th, td {
 	background-image: url('../img/webos.svg');
 }
 
+.svg .windows.phone {
+	background-image: url('../img/windows-phone.svg');
+}
+
+.svg .nokia.os {
+	background-image: url('../img/nokia-os.svg');
+}
+
 .no-svg .phone {
 	background-image: url('../img/bitmaps/phone.png'); 
 }
@@ -348,9 +331,23 @@ th, td {
 	background-image: url('../img/bitmaps/symbian.png'); 
 }
 
+.no-svg .windows.phone {
+	background-image: url('../img/bitmaps/windows-phone.png');
+}
+
+.no-svg .nokia.os {
+	background-image: url('../img/bitmaps/nokia-os.png');
+}
+
 .logo {
 	margin: 7px 12px;
 	height: 40px;
+}
+
+.logo:hover {
+	zoom: 1;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
 }
 
 .no-svg .webos {

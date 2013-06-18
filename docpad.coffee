@@ -10,6 +10,8 @@ module.exports =
             email: "hello@opendevicelab.de"
             gdomain: "opendevicelab.de"
             gid: "UA-35083554-1"
+            twitterWidgetId: "345529577604542466"
+
         partnerLogos: [
             {
                 path: "assets/img/fwdio-black.svg"
@@ -18,6 +20,10 @@ module.exports =
             {
                 path: "assets/img/coverup.svg"
                 url: "http://www.coverupaccessories.com/"
+            }
+            {
+                path: "assets/img/nokia.svg"
+                url: "http://www.nokia.com"
             }
         ]
         devices:
@@ -64,6 +70,27 @@ module.exports =
                 os: "OS"
                 version: "6"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
+                type: "phone"
+            lumia800:
+                manufacturer: "Nokia"
+                model: "Lumia 800"
+                os: "Windows Phone"
+                version: "7.8"
+                contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Lumia_800/'>Nokia</a>"
+                type: "phone"
+            lumia920:
+                manufacturer: "Nokia"
+                model: "Lumia 920"
+                os: "Windows Phone"
+                version: "8"
+                contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Lumia_920/'>Nokia</a>"
+                type: "phone"
+            asha:
+                manufacturer: "Nokia"
+                model: "Asha 311"
+                os: "Nokia OS"
+                version: "5.92"
+                contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Asha_311/'>Nokia</a>"
                 type: "phone"
             E90Communicator:
                 manufacturer: "Nokia"
@@ -160,6 +187,8 @@ module.exports =
                         options.inverse(this);
         sitemap:
             hostname: "http://hamburg.opendevicelab.de"
+            changefreq: "weekly"
+            priority: 1
 
     ## Dev stuff
     growl: false

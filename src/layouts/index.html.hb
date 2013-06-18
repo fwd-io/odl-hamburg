@@ -134,8 +134,9 @@
 
     <div class="container dark-tile-bg padded">
       <div class="row clearfix">
-        <div id="twitter" class="col4">
+        <div class="col4">
           <h2>Twitter: @{{site.twitter}}</h2>
+          <a class="twitter-timeline" data-tweet-limit="3" data-chrome="noheader nofooter transparent" data-dnt="true" href="https://twitter.com/odl_hh" data-widget-id="{{site.twitterWidgetId}}">Tweets by @odl_hh</a>
         </div>
         <div class="col4 odls-germany">
           {{{document.content.odls-germany}}}
@@ -147,7 +148,7 @@
       </div>
     </div>
     {{#if partnerLogos}}
-      <div class="container padded">
+      <div class="container logos">
         <div class="row">
           <div class="col12">
             {{{document.content.partner}}}
@@ -159,6 +160,13 @@
             <a href="{{this.url}}" target="_blank"><img src="{{this.path}}" alt="" class="logo"></a>
           {{/each}}
         </div>
+        {{#if document.content.nokia-program}}
+          <div class="row">
+            <div class="col12 nokia-program">
+              {{{document.content.nokia-program}}}
+            </div>
+          </div>
+        {{/if}}
       </div>
     {{/if}}
 

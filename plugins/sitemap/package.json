@@ -33,12 +33,12 @@
 	"dependencies" : {
 		"sitemap": "0.6.x",
         	"bal-util": ">=1.13.10 <1.14",
-	        "underscore": "1.4.x"
+		"underscore": "~1.4.4"
 	},
     "devDependencies": {
         "coffee-script": "1.4.x"
     },
-	"main": "./sitemap.plugin.coffee",
+	"main": "./out/sitemap.plugin.js",
     "scripts": {
         "test": "node ./test/sitemap.test.js"
     }
