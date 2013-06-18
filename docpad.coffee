@@ -67,6 +67,27 @@ module.exports =
                 version: "6"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
                 type: "phone"
+            lumia800:
+                manufacturer: "Nokia"
+                model: "Lumia 800"
+                os: "Windows Phone"
+                version: "7.8"
+                contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Lumia_800/'>Nokia</a>"
+                type: "phone"
+            lumia920:
+                manufacturer: "Nokia"
+                model: "Lumia 920"
+                os: "Windows Phone"
+                version: "7.8"
+                contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Lumia_920/'>Nokia</a>"
+                type: "phone"
+            asha:
+                manufacturer: "Nokia"
+                model: "Asha 311"
+                os: "Nokia OS"
+                version: "5.92"
+                contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Asha_311/'>Nokia</a>"
+                type: "phone"
             E90Communicator:
                 manufacturer: "Nokia"
                 model: "E90 Communicator"
