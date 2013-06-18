@@ -148,7 +148,7 @@
       </div>
     </div>
     {{#if partnerLogos}}
-      <div class="container padded">
+      <div class="container logos">
         <div class="row">
           <div class="col12">
             {{{document.content.partner}}}
@@ -162,7 +162,7 @@
         </div>
         {{#if document.content.nokia-program}}
           <div class="row">
-            <div class="col6">
+            <div class="col12 nokia-program">
               {{{document.content.nokia-program}}}
             </div>
           </div>
