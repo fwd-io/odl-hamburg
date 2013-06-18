@@ -78,7 +78,7 @@ module.exports =
                 manufacturer: "Nokia"
                 model: "Lumia 920"
                 os: "Windows Phone"
-                version: "7.8"
+                version: "8"
                 contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Lumia_920/'>Nokia</a>"
                 type: "phone"
             asha:
