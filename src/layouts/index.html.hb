@@ -162,7 +162,7 @@
         </div>
         {{#if document.content.nokia-program}}
           <div class="row">
-            <div class="col12">
+            <div class="col6">
               {{{document.content.nokia-program}}}
             </div>
           </div>
