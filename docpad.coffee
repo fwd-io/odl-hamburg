@@ -21,6 +21,10 @@ module.exports =
                 path: "assets/img/coverup.svg"
                 url: "http://www.coverupaccessories.com/"
             }
+            {
+                path: "assets/img/nokia.svg"
+                url: "http://www.nokia.com"
+            }
         ]
         devices:
             iphone3gs: 
