@@ -148,7 +148,7 @@
       </div>
     </div>
     {{#if partnerLogos}}
-      <div class="container logos">
+      <div class="container logos padded">
         <div class="row">
           <div class="col12">
             {{{document.content.partner}}}
