@@ -65,3 +65,6 @@ module.exports =
 
                 safeurl: (url) ->
                     encodeURI(url)
+
+    ## Disables build notifications which can be very annoying
+    growl: false
