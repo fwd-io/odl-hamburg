@@ -200,8 +200,7 @@ b {
 
 .language-switch {
 	color: @hero-grey;
-	position: absolute;
-	right: 5em;
+	float:right;
 
 	a {
 		color: @hero-grey;
@@ -475,8 +474,13 @@ html {
 	}
 
 	nav ul {
-		padding: 1em 0;
+		padding: 0;
 		display: block;
+	}
+
+	.language-switch {
+		float:none;
+		margin: 0 auto;
 	}
 
 	h2 {
