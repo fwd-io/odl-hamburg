@@ -35,13 +35,6 @@ module.exports =
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 dead: true
-            ipodtouch4g:
-                manufacturer: "Apple"
-                model: "iPod Touch 4G"
-                os: "iOS"
-                version: "6"
-                contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
-                type: "phone"
             iphone5:
                 manufacturer: "Apple"
                 model: "iPhone 5"
@@ -50,13 +43,6 @@ module.exports =
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 private: true
-            ipad3:
-                manufacturer: "Apple"
-                model: "iPad 3"
-                os: "iOS"
-                version: "6"
-                contributor: "<a target='_blank' href='http://twitter.com/fwd_io'>FWD.IO</a>"
-                type: "tablet"
             Bold9700:
                 manufacturer: "Blackberry"
                 model: "Bold 9700"
@@ -113,20 +99,6 @@ module.exports =
                 version: "2.2"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
                 type: "phone"
-            Desire2:
-                manufacturer: "HTC"
-                model: "Desire"
-                os: "Android"
-                version: "2.3.7 (Custom Rom)"
-                contributor: "<a target='_blank' href='http://fwd.io'>FWD.IO</a>"
-                type: "phone"
-            Wildfire:
-                manufacturer: "HTC"
-                model: "Wildfire"
-                os: "Android"
-                version: "2.2.1"
-                contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
-                type: "phone"
             PalmPixiPlus:
                 manufacturer: "Palm"
                 model: "Palm Pixi Plus"
@@ -140,13 +112,6 @@ module.exports =
                 os: "Android"
                 version: "2.3.6"
                 contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
-                type: "phone"
-            GalaxyS3:
-                manufacturer: "Samsung"
-                model: "Galaxy S III"
-                os: "Android"
-                version: "4.1.2"
-                contributor: "<a target='_blank' href='http://fwd.io'>FWD.IO</a>"
                 type: "phone"
             GalaxyTab:
                 manufacturer: "Samsung"
