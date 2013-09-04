@@ -35,6 +35,13 @@ module.exports =
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 dead: true
+            iphone4: 
+                manufacturer: "Apple"
+                model: "iPhone 4"
+                os: "iOS"
+                version: "6.1.3"
+                contributor: "<a target='_blank' href='http://familo.net'>Familonet</a>"
+                type: "phone"
             iphone5:
                 manufacturer: "Apple"
                 model: "iPhone 5"
@@ -105,6 +112,13 @@ module.exports =
                 os: "Palm webOS"
                 version: "1.4.5"
                 contributor: "<a target='_blank' href='http://fwd.io'>FWD.IO</a>"
+                type: "phone"
+            GalaxyYoung:
+                manufacturer: "Samsung"
+                model: "Galaxy Young"
+                os: "Android"
+                version: "4.1.2"
+                contributor: "<a target='_blank' href='http://familo.net'>Familonet</a>"
                 type: "phone"
             GalaxyS:
                 manufacturer: "Samsung"
