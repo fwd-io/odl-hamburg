@@ -12,6 +12,8 @@
    version="1.0"
    width="320"
    height="80"
+   enable-background="new 0 0 160 40"
+   viewBox="0 0 320 80"
    id="svg2458"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="nokia.svg">
