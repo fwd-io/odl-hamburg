@@ -9,13 +9,12 @@
       <link rel="canonical" href="http://hamburg.opendevicelab.de">
       <link rel="alternate" href="http://hamburg.opendevicelab.de/de.html" hreflang="de">
     {{/ifCond}}
-    {{#getBlock "styles" document.pathToRoot "/assets/css/styles.css"}}{{/getBlock}}
     {{#ifCond document.languageName "de"}} 
       <link rel="alternate" href="http://hamburg.opendevicelab.de/index.html" hreflang="en">
     {{/ifCond}}
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
     {{#getBlock "meta"}}{{/getBlock}}
-    <script src="{{document.pathToRoot}}/assets/js/vendor/modernizr.js"></script>
+    <script src="/assets/js/vendor/modernizr.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{site.gid}}']);
@@ -183,7 +182,7 @@
   <!-- local fallback -->
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.1.9.1.min.js"><\/script>')</script>
 
-  {{#getBlock "scripts" document.pathToRoot "/assets/js/main.js"}}{{/getBlock}}
+  <script src="/assets/js/main.js"></script>
 
   </body>
 </html>
