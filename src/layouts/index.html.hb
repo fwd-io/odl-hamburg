@@ -7,8 +7,13 @@
     <title>{{site.title}}</title>
     {{#ifCond document.languageName "en"}} 
       <link rel="canonical" href="http://hamburg.opendevicelab.de">
+      <link rel="alternate" href="http://hamburg.opendevicelab.de/de.html" hreflang="de">
     {{/ifCond}}
     {{#getBlock "styles" document.pathToRoot "/assets/css/styles.css"}}{{/getBlock}}
+    {{#ifCond document.languageName "de"}} 
+      <link rel="alternate" href="http://hamburg.opendevicelab.de/index.html" hreflang="en">
+    {{/ifCond}}
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
     {{#getBlock "meta"}}{{/getBlock}}
     <script src="{{document.pathToRoot}}/assets/js/vendor/modernizr.js"></script>
     <script type="text/javascript">
