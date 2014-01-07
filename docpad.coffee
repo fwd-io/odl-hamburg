@@ -4,7 +4,7 @@ module.exports =
         site:
             title: "Open Device Lab Hamburg"
             twitter: "odl_hh"
-            phone: "+49 40 1811 8182"
+            phone: "+49 40 2286 9517"
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
             appid: "626483900710424"
             email: "hello@opendevicelab.de"
