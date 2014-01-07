@@ -14,8 +14,8 @@ module.exports =
 
         partnerLogos: [
             {
-                path: "assets/img/fwdio-black.svg"
-                url: "http://www.fwd.io"
+                path: "assets/img/launchco-hh.svg"
+                url: "http://launchco.com"
             }
             {
                 path: "assets/img/coverup.svg"
