@@ -50,6 +50,13 @@ module.exports =
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 private: true
+            macbookpro:
+                manufacturer: "Apple"
+                model: 'MacBook Pro 13"'
+                os: "macosx"
+                version: "Mac OS X 10.7.5"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "laptop"
             Bold9700:
                 manufacturer: "Blackberry"
                 model: "Bold 9700"
