@@ -35,6 +35,13 @@ module.exports =
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 dead: true
+            ipad1:
+                manufacturer: "Apple"
+                model: "iPad 1st generation"
+                os: "iOS"
+                version: "5.1.1"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "tablet"
             iphone5:
                 manufacturer: "Apple"
                 model: "iPhone 5"
