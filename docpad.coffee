@@ -25,6 +25,10 @@ module.exports =
                 path: "assets/img/nokia.svg"
                 url: "http://www.nokia.com"
             }
+            {
+                path: "assets/img/device-lab-logo.svg"
+                url: "http://devicelab.vanamco.com"
+            }
         ]
         devices:
             iphone3gs: 
