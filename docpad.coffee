@@ -46,6 +46,13 @@ module.exports =
                 version: "iOS 5.1.1"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "tablet"
+            iphone5white:
+                manufacturer: "Apple"
+                model: "iPhone 5"
+                os: "iOS"
+                version: "iOS 7.0.3"
+                contributor: "<a target='_blank' href='http://wirtshaus-frauental.de/'>Wirtshaus Frauental</a>"
+                type: "phone"
             iphone5:
                 manufacturer: "Apple"
                 model: "iPhone 5"
