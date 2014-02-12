@@ -50,7 +50,7 @@ module.exports =
                 manufacturer: "Apple"
                 model: "iPhone 5"
                 os: "iOS"
-                version: "iOS 6.1.4"
+                version: "iOS 7.0.4"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 private: true
