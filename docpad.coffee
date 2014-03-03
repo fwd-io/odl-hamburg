@@ -131,6 +131,13 @@ module.exports =
                 version: "Palm webOS 1.4.5"
                 contributor: "<a target='_blank' href='http://launchco.com'>LAUNCH/CO</a>"
                 type: "phone"
+            GalaxyMini:
+                manufacturer: "Samsung"
+                model: "Galaxy Mini"
+                os: "Android"
+                version: "2.3.5"
+                contributor: "Anonymous"
+                type: "phone"
             GalaxyS:
                 manufacturer: "Samsung"
                 model: "Galaxy S"
