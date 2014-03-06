@@ -159,6 +159,13 @@ module.exports =
                 version: "Android 3.1"
                 contributor: "<a target='_blank' href='http://launchco.com'>LAUNCH/CO</a>"
                 type: "tablet"
+            GalaxyTab3:
+                manufacturer: "Samsung"
+                model: "Galaxy Tab 3 10.1"
+                os: "Android"
+                version: "Android 4.2.2"
+                contributor: "<a target='_blank' href='https://www.facebook.com/IntelDeveloperZone'>Intel Developer Zone</a>"
+                type: "tablet"
             VB730:
                 manufacturer: "ViewSonic"
                 model: "VB730"
