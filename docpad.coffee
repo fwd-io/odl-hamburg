@@ -68,6 +68,13 @@ module.exports =
                 version: "Mac OS X 10.7.5"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "laptop"
+            asusmemopad:
+                manufacturer: "Asus"
+                model: "MeMo Pad Full HD 10"
+                os: "Android"
+                version: "Android 4.3"
+                contributor: "<a target='_blank' href='https://www.facebook.com/IntelDeveloperZone'>Intel Developer Zone</a>"
+                type: "tablet"
             Bold9700:
                 manufacturer: "Blackberry"
                 model: "Bold 9700"
