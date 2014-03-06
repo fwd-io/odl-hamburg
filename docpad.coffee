@@ -18,7 +18,7 @@ module.exports =
                 url: "http://launchco.com"
             }
             {
-                path: "assets/img/intel@2x.png"
+                path: "assets/img/bitmaps/intel@2x.png"
                 url: "https://www.facebook.com/IntelDeveloperZone"
             }
             {
