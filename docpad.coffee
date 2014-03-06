@@ -18,6 +18,10 @@ module.exports =
                 url: "http://launchco.com"
             }
             {
+                path: "assets/img/intel@2x.png"
+                url: "https://www.facebook.com/IntelDeveloperZone"
+            }
+            {
                 path: "assets/img/coverup.svg"
                 url: "http://www.coverupaccessories.com/"
             }
@@ -29,6 +33,7 @@ module.exports =
                 path: "assets/img/device-lab-logo.svg"
                 url: "http://devicelab.vanamco.com"
             }
+
         ]
         devices:
             iphone3gs: 
