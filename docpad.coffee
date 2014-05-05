@@ -33,7 +33,10 @@ module.exports =
                 path: "assets/img/device-lab-logo.svg"
                 url: "http://devicelab.vanamco.com"
             }
-
+            {
+                path: "assets/img/bitmaps/modernie_grey.png"
+                url: "http://modern.ie"
+            }
         ]
         devices:
             iphone3gs: 
@@ -135,6 +138,13 @@ module.exports =
                 os: "Android"
                 version: "Android 2.2"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
+                type: "phone"
+            Desire2:
+                manufacturer: "HTC"
+                model: "Desire"
+                os: "Android"
+                version: "Android 4.0.4"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "phone"
             PalmPixiPlus:
                 manufacturer: "Palm"
