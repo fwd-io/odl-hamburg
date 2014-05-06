@@ -37,6 +37,10 @@ module.exports =
                 path: "assets/img/bitmaps/modernie_grey.png"
                 url: "http://modern.ie"
             }
+            {
+                path: "assets/img/bitmaps/browserstack.png"
+                url: "http://browserstack.com"
+            }
         ]
         devices:
             iphone3gs: 
