@@ -101,6 +101,13 @@ module.exports =
                 version: "OS 6"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
                 type: "phone"
+            MotoG:
+                manufacturer: "Motorola"
+                model: "Moto G"
+                os: "Android"
+                version: "Android 4.4.2"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
             lumia800:
                 manufacturer: "Nokia"
                 model: "Lumia 800"
