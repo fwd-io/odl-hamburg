@@ -101,6 +101,13 @@ module.exports =
                 version: "OS 6"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
                 type: "phone"
+            Torch9800:
+                manufacturer: "Blackberry"
+                model: "Torch 9800"
+                os: "OS"
+                version: "OS 6"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
             MotoG:
                 manufacturer: "Motorola"
                 model: "Moto G"
