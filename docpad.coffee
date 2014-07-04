@@ -50,7 +50,6 @@ module.exports =
                 version: "iOS 3.1"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
-                dead: true
             iphone3gs: 
                 manufacturer: "Apple"
                 model: "iPhone 3GS"
