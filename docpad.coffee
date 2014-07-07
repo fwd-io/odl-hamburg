@@ -43,6 +43,13 @@ module.exports =
             }
         ]
         devices:
+            ipod1gen: 
+                manufacturer: "Apple"
+                model: "iPhone 1st Generation"
+                os: "iOS"
+                version: "iOS 1.1.5"
+                contributor: "<a target='_blank' href='https://twitter.com/yyvvonnee'>Yvonne Lingard</a>"
+                type: "phone"
             iphone1gen: 
                 manufacturer: "Apple"
                 model: "iPhone 1st Generation"
