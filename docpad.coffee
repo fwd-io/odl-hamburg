@@ -57,14 +57,6 @@ module.exports =
                 version: "iOS 3.1"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
-            iphone3gs: 
-                manufacturer: "Apple"
-                model: "iPhone 3GS"
-                os: "iOS"
-                version: "iOS 6"
-                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
-                type: "phone"
-                dead: true
             ipad1:
                 manufacturer: "Apple"
                 model: "iPad 1st generation"
