@@ -212,6 +212,13 @@ module.exports =
                 version: "Android 2.2.1"
                 contributor: "<a target='_blank' href='http://twitter.com/cover_up'>Cover-Up</a>"
                 type: "tablet"
+            ZTEOpenC:
+                manufacturer: "ZTE"
+                model: "Open C"
+                os: "Firefox OS"
+                version: "Firefox OS 1.3.0"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
 
     ## Helpers for the handlebars templating engine
     plugins:
