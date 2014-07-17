@@ -170,6 +170,13 @@ module.exports =
                 version: "Android 4.0.4"
                 contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "phone"
+            DesireS:
+                manufacturer: "HTC"
+                model: "Desire S"
+                os: "Android"
+                version: "Android 4.0.4"
+                contributor: "<a target='_blank' href='http://launchco.com'>LAUNCH/CO</a>"
+                type: "phone"
             PalmPixiPlus:
                 manufacturer: "Palm"
                 model: "Palm Pixi Plus"
@@ -205,6 +212,13 @@ module.exports =
                 version: "Android 4.2.2"
                 contributor: "<a target='_blank' href='https://www.facebook.com/IntelDeveloperZone'>Intel Developer Zone</a>"
                 type: "tablet"
+            Flame:
+                manufacturer: "T2Mobile"
+                model: "Flame (Firefox OS developer phone)"
+                os: "Firefox OS"
+                version: "Firefox OS 1.3.0 prerelease"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
             VB730:
                 manufacturer: "ViewSonic"
                 model: "VB730"
