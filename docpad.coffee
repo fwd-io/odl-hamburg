@@ -43,14 +43,14 @@ module.exports =
             }
         ]
         devices:
-            ipod1gen: 
+            ipod1gen:
                 manufacturer: "Apple"
                 model: "iPod 1st Generation"
                 os: "iOS"
                 version: "iOS 1.1.5"
                 contributor: "<a target='_blank' href='https://twitter.com/yyvvonnee'>Yvonne Lingard</a>"
                 type: "phone"
-            iphone1gen: 
+            iphone1gen:
                 manufacturer: "Apple"
                 model: "iPhone 1st Generation"
                 os: "iOS"
@@ -98,7 +98,7 @@ module.exports =
                 model: "Bold 9700"
                 os: "OS"
                 version: "OS 6"
-                contributor: "<a target='_blank' href='http://carsale24.de'>Nikolai Roth</a>"
+                contributor: "<a target='_blank' href='http://www.homepage-baukasten-vergleich.de'>Nikolai Roth</a>"
                 type: "phone"
             Pearl9105:
                 manufacturer: "Blackberry"
@@ -250,11 +250,11 @@ module.exports =
 
                 safeurl: (url) ->
                     encodeURI(url)
-                    
+
                 ifCond: (v1, v2, options) ->
                     if(v1 == v2)
                         return options.fn(this)
-                    else 
+                    else
                         options.inverse(this);
         sitemap:
             hostname: "http://hamburg.opendevicelab.de"
