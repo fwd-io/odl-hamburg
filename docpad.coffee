@@ -68,14 +68,14 @@ module.exports =
                 manufacturer: "Apple"
                 model: "iPhone 5"
                 os: "iOS"
-                version: "iOS 7.0.3"
+                version: "iOS 8.1"
                 contributor: "<a target='_blank' href='http://wirtshaus-frauental.de/'>Wirtshaus Frauental</a>"
                 type: "phone"
             iphone5:
                 manufacturer: "Apple"
-                model: "iPhone 5"
+                model: "iPhone 6"
                 os: "iOS"
-                version: "iOS 7.1.1"
+                version: "iOS 8.1.3"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
                 private: true
@@ -98,7 +98,7 @@ module.exports =
                 model: "Bold 9700"
                 os: "OS"
                 version: "OS 6"
-                contributor: "<a target='_blank' href='http://www.homepage-baukasten-vergleich.de'>Nikolai Roth</a>"
+                contributor: "<a target='_blank' href='http://imcheck24.de'>Nikolai Roth</a>"
                 type: "phone"
             Pearl9105:
                 manufacturer: "Blackberry"
@@ -113,6 +113,13 @@ module.exports =
                 os: "OS"
                 version: "OS 6"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
+            Nexus:
+                manufacturer: "LG"
+                model: "Nexus 4"
+                os: "Android"
+                version: "Android 4.4.2"
+                contributor: "<a target='_blank' href='http://www.homepage-baukasten-vergleich.de'>Homepage Baukasten Vergleich</a>"
                 type: "phone"
             MotoG:
                 manufacturer: "Motorola"
