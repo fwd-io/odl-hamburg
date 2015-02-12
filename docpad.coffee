@@ -50,12 +50,19 @@ module.exports =
                 version: "iOS 1.1.5"
                 contributor: "<a target='_blank' href='https://twitter.com/yyvvonnee'>Yvonne Lingard</a>"
                 type: "phone"
-            iphone1gen:
+            ipod2gen:
                 manufacturer: "Apple"
-                model: "iPhone 1st Generation"
+                model: "iPod 2nd Generation"
                 os: "iOS"
-                version: "iOS 3.1"
-                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                version: "iOS 4.2.1"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
+                type: "phone"
+            ipod5gen:
+                manufacturer: "Apple"
+                model: "iPod 5th Generation"
+                os: "iOS"
+                version: "iOS 7.0.4"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "phone"
             ipad1:
                 manufacturer: "Apple"
@@ -64,14 +71,35 @@ module.exports =
                 version: "iOS 5.1.1"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "tablet"
-            iphone5white:
+            ipad3:
+                manufacturer: "Apple"
+                model: "iPad 3rd generation"
+                os: "iOS"
+                version: "iOS 7.0.4"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
+                type: "tablet"
+            iphone1gen:
+                manufacturer: "Apple"
+                model: "iPhone 1st Generation"
+                os: "iOS"
+                version: "iOS 3.1"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
+            iphone4:
+                manufacturer: "Apple"
+                model: "iPhone 4"
+                os: "iOS"
+                version: "iOS 7.0.4"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
+                type: "phone"
+            iphone5black:
                 manufacturer: "Apple"
                 model: "iPhone 5"
                 os: "iOS"
                 version: "iOS 8.1"
                 contributor: "<a target='_blank' href='http://wirtshaus-frauental.de/'>Wirtshaus Frauental</a>"
                 type: "phone"
-            iphone5:
+            iphone6:
                 manufacturer: "Apple"
                 model: "iPhone 6"
                 os: "iOS"
@@ -120,6 +148,13 @@ module.exports =
                 os: "Android"
                 version: "Android 4.4.2"
                 contributor: "<a target='_blank' href='http://www.homepage-baukasten-vergleich.de'>Homepage Baukasten Vergleich</a>"
+                type: "phone"
+            Nexus:
+                manufacturer: "LG"
+                model: "Nexus 4"
+                os: "Android"
+                version: "Android 4.4.4"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "phone"
             MotoG:
                 manufacturer: "Motorola"
@@ -211,6 +246,13 @@ module.exports =
                 os: "Android"
                 version: "Android 3.1"
                 contributor: "<a target='_blank' href='http://launchco.com'>LAUNCH/CO</a>"
+                type: "tablet"
+            GalaxyTab2:
+                manufacturer: "Samsung"
+                model: "Galaxy Tab 2 (GT-P5110)"
+                os: "Android"
+                version: "Android 4.2.2"
+                contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "tablet"
             GalaxyTab3:
                 manufacturer: "Samsung"
