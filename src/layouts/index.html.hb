@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{site.title}}</title>
-    {{#ifCond document.languageName "en"}} 
+    {{#ifCond document.languageName "en"}}
       <link rel="canonical" href="http://hamburg.opendevicelab.de">
       <link rel="alternate" href="http://hamburg.opendevicelab.de/de.html" hreflang="de">
     {{/ifCond}}
-    {{#ifCond document.languageName "de"}} 
-      <link rel="alternate" href="http://hamburg.opendevicelab.de/index.html" hreflang="en">
+    {{#ifCond document.languageName "de"}}
+      <link rel="alternate" href="http://hamburg.opendevicelab.de" hreflang="en">
     {{/ifCond}}
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
     {{#getBlock "meta"}}{{/getBlock}}
@@ -25,7 +25,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-    </script> 
+    </script>
   </head>
 
   <body>
@@ -86,7 +86,7 @@
           {{{document.content.quickinfo-2}}}
         </div>
         <div class="col4 last">
-          {{{document.content.quickinfo-3}}}  
+          {{{document.content.quickinfo-3}}}
           <a class="donate" href="mailto:{{{site.email}}}"><img src="{{document.pathToRoot}}/assets/img/donate_device.svg">{{document.content.donate-button}}</a>
         </div>
       </div>
@@ -104,7 +104,7 @@
               </tr>
             </thead>
             <tbody>
-              {{#each devices}} 
+              {{#each devices}}
               <tr {{#if this.dead }} class="dead" {{/if}}>
                 <td>{{{this.manufacturer}}}</td>
                 <td><span class="{{this.type}}"></span>{{{this.model}}}{{#if this.private}} *{{/if}}</td>
