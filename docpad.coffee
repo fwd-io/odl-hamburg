@@ -142,7 +142,7 @@ module.exports =
                 version: "OS 6"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
-            Nexus:
+            Nexus2:
                 manufacturer: "LG"
                 model: "Nexus 4"
                 os: "Android"
