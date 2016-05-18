@@ -126,7 +126,7 @@ module.exports =
                 model: "Bold 9700"
                 os: "OS"
                 version: "OS 6"
-                contributor: "<a target='_blank' href='http://imcheck24.de'>Nikolai Roth</a>"
+                contributor: "<a target='_blank' href='https://marklaro.de'>Nikolai Roth</a>"
                 type: "phone"
             Pearl9105:
                 manufacturer: "Blackberry"
