@@ -57,6 +57,13 @@ module.exports =
                 version: "iOS 4.2.1"
                 contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "phone"
+            ipod2gen2:
+                manufacturer: "Apple"
+                model: "iPod 2nd Generation"
+                os: "iOS"
+                version: "iOS 4.2.1"
+                contributor: "<a target='_blank' href='http://www.brink-martens.de/'>brink & martens GmbH</a>"
+                type: "phone"
             ipod5gen:
                 manufacturer: "Apple"
                 model: "iPod 5th Generation"
@@ -70,6 +77,13 @@ module.exports =
                 os: "iOS"
                 version: "iOS 5.1.1"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "tablet"
+            ipad1_2:
+                manufacturer: "Apple"
+                model: "iPad 1st generation"
+                os: "iOS"
+                version: "iOS 5.1.1"
+                contributor: "<a target='_blank' href='http://www.brink-martens.de/'>brink & martens GmbH</a>"
                 type: "tablet"
             ipad3:
                 manufacturer: "Apple"
@@ -128,6 +142,13 @@ module.exports =
                 version: "OS 6"
                 contributor: "<a target='_blank' href='https://marklaro.de'>Nikolai Roth</a>"
                 type: "phone"
+            Curve8520:
+                manufacturer: "Blackberry"
+                model: "Curve 8520"
+                os: "OS"
+                version: "OS 5"
+                contributor: "<a target='_blank' href='http://www.brink-martens.de/'>brink & martens GmbH</a>"
+                type: "phone"
             Pearl9105:
                 manufacturer: "Blackberry"
                 model: "Pearl 9105"
@@ -140,6 +161,13 @@ module.exports =
                 model: "Torch 9800"
                 os: "OS"
                 version: "OS 6"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
+            ascendy520:
+                manufacturer: "Huawei"
+                model: "Ascend Y520"
+                os: "Android"
+                version: "Android 4.4.2"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
             Nexus2:
@@ -261,6 +289,13 @@ module.exports =
                 version: "Android 4.2.2"
                 contributor: "<a target='_blank' href='https://www.facebook.com/IntelDeveloperZone'>Intel Developer Zone</a>"
                 type: "tablet"
+            G1:
+                manufacturer: "T-Mobile"
+                model: "T-Mobile G1"
+                os: "Android"
+                version: "Android 1.6"
+                contributor: "<a target='_blank' href='http://www.brink-martens.de/'>brink & martens GmbH</a>"
+                type: "phone"
             Flame:
                 manufacturer: "T2Mobile"
                 model: "Flame (Firefox OS developer phone)"
