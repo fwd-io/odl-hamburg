@@ -188,7 +188,7 @@ module.exports =
                 manufacturer: "Motorola"
                 model: "Moto G"
                 os: "Android"
-                version: "Android 4.4.2"
+                version: "Android 5.1"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
             lumia800:
