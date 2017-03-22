@@ -85,6 +85,13 @@ module.exports =
                 version: "iOS 5.1.1"
                 contributor: "<a target='_blank' href='http://www.brink-martens.de/'>brink & martens GmbH</a>"
                 type: "tablet"
+            ipad2:
+                manufacturer: "Apple"
+                model: "iPad 2nd generation"
+                os: "iOS"
+                version: "iOS 6.1.3"
+                contributor: "<a target='_blank' href='https://twitter.com/klick_ass'>Andre Jay Meissner</a>"
+                type: "tablet"
             ipad3:
                 manufacturer: "Apple"
                 model: "iPad 3rd generation"
@@ -142,6 +149,13 @@ module.exports =
                 version: "OS 6"
                 contributor: "<a target='_blank' href='https://marklaro.de'>Nikolai Roth</a>"
                 type: "phone"
+            Bold9700:
+                manufacturer: "Blackberry"
+                model: "Bold 9700"
+                os: "OS"
+                version: "OS 5"
+                contributor: "<a target='_blank' href='https://twitter.com/klick_ass'>Andre Jay Meissner</a>"
+                type: "phone"
             Curve8520:
                 manufacturer: "Blackberry"
                 model: "Curve 8520"
@@ -156,6 +170,13 @@ module.exports =
                 version: "OS 6"
                 contributor: "<a target='_blank' href='http://schoetz-partner.com'>Patrick Schötz</a>"
                 type: "phone"
+            Playbook:
+                manufacturer: "Blackberry"
+                model: "PlayBook"
+                os: "OS"
+                version: "OS 2.1.0"
+                contributor: "<a target='_blank' href='https://twitter.com/klick_ass'>Andre Jay Meissner</a>"
+                type: "tablet"
             Torch9800:
                 manufacturer: "Blackberry"
                 model: "Torch 9800"
@@ -197,6 +218,13 @@ module.exports =
                 os: "Windows Phone"
                 version: "Windows Phone 7.8"
                 contributor: "<a target='_blank' href='http://www.developer.nokia.com/Devices/Device_specifications/Lumia_800/'>Nokia</a>"
+                type: "phone"
+            lumia900:
+                manufacturer: "Nokia"
+                model: "Lumia 900"
+                os: "Windows Phone"
+                version: "Windows Phone 7.5"
+                contributor: "<a target='_blank' href='https://twitter.com/klick_ass'>Andre Jay Meissner</a>"
                 type: "phone"
             lumia920:
                 manufacturer: "Nokia"
@@ -240,6 +268,13 @@ module.exports =
                 version: "Android 4.0.4"
                 contributor: "<a target='_blank' href='http://www.brandpfeil.de'>brandpfeil GmbH</a>"
                 type: "phone"
+            DesireHD:
+                manufacturer: "HTC"
+                model: "Desire HD"
+                os: "Android"
+                version: "Android 2.3.5"
+                contributor: "<a target='_blank' href='https://twitter.com/klick_ass'>Andre Jay Meissner</a>"
+                type: "phone"
             DesireS:
                 manufacturer: "HTC"
                 model: "Desire S"
@@ -267,6 +302,13 @@ module.exports =
                 os: "Android"
                 version: "2.3.6"
                 contributor: "<a target='_blank' href='http://twitter.com/achimsen'>Joachim Penk</a>"
+                type: "phone"
+            GalaxyS2:
+                manufacturer: "Samsung"
+                model: "Galaxy S"
+                os: "Android"
+                version: "2.3.6"
+                contributor: "<a target='_blank' href='https://twitter.com/klick_ass'>Andre Jay Meissner</a>"
                 type: "phone"
             GalaxyTab:
                 manufacturer: "Samsung"
