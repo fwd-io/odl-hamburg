@@ -127,6 +127,13 @@ module.exports =
                 version: "iOS 8.1.3"
                 contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
                 type: "phone"
+            iphone7:
+                manufacturer: "Apple"
+                model: "iPhone 7"
+                os: "iOS"
+                version: "iOS 10.2.1"
+                contributor: "<a target='_blank' href='http://twitter.com/flix'>Felix Gliesche</a>"
+                type: "phone"
                 private: true
             macbookpro:
                 manufacturer: "Apple"
