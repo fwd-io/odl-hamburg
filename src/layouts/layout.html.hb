@@ -119,24 +119,12 @@
             <li><b>E-Mail:</b> <a href="mailto:{{{site.email}}}">{{{site.email}}}</a></li>
           </ul>
         </div>
+        <div class="col6 last odls-germany">
+          {{{document.content.odls-germany}}}
+        </div>
       </div>
     </div>
 
-    <div class="container dark-tile-bg padded">
-      <div class="row clearfix">
-        <div class="col4">
-          <h2>Twitter: @{{site.twitter}}</h2>
-          <a class="twitter-timeline" height="300" data-chrome="noheader nofooter transparent" data-dnt="true" href="https://twitter.com/odl_hh" data-widget-id="{{site.twitterWidgetId}}">Tweets by @odl_hh</a>
-        </div>
-        <div class="col4 odls-germany">
-          {{{document.content.odls-germany}}}
-        </div>
-        <div class="col4 last">
-          <h2>Facebook</h2>
-          <iframe src="//www.facebook.com/plugins/likebox.php?href={{#safeurl site.facebook}}{{/safeurl}}&amp;width=292&amp;height=400&amp;show_faces=true&amp;show_border=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId={{site.appid}}" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:300px;" allowTransparency="true"></iframe>
-        </div>
-      </div>
-    </div>
     {{#if partnerLogos}}
       <div class="container logos padded">
         <div class="row">
