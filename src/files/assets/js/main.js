@@ -15,7 +15,7 @@ if(!Modernizr.svg)
 $(function() {
   $.ajax({
     type: 'GET',
-    url: "http://api.opendevicelab.com/?countries=Germany",
+    url: "https://api.opendevicelab.com/?countries=Germany",
     async: false,
     jsonpCallback: 'listODLs',
     dataType: 'jsonp',
