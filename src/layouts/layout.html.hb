@@ -119,10 +119,6 @@
             <li><b>E-Mail:</b> <a href="mailto:{{{site.email}}}">{{{site.email}}}</a></li>
           </ul>
         </div>
-
-        <div class="col6 last">
-          {{{document.content.google-maps}}}
-        </div>
       </div>
     </div>
 
