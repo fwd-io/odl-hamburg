@@ -8,8 +8,6 @@ module.exports =
             facebook: "https://www.facebook.com/OpenDeviceLabHamburg"
             appid: "626483900710424"
             email: "hello@opendevicelab.de"
-            gdomain: "opendevicelab.de"
-            gid: "UA-35083554-1"
             twitterWidgetId: "345529577604542466"
 
         partnerLogos: [
